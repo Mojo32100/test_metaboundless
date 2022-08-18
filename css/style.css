@@ -204,7 +204,7 @@ footer .footer-left li {display: inline-block;margin: 0px 65px 0 0;padding: 25px
 .justtickit img {max-width: 240px;}
 .grid-box {width: 100%;display: flex;align-items: center;justify-content: space-between;flex-direction: column;padding: 20px;box-sizing: border-box;min-height: 320px;backdrop-filter: blur(35px);border-radius: 20px;margin: 15px 0;border: 2px solid rgb(255 255 255 / 18%);}
 .grid-box:hover {border: 2px solid #fff;}
-.buynow-text {font-weight: 700;font-size: 18px;line-height: 26px;/* identical to box height, or 178% */margin-bottom: 0;letter-spacing: 1px;text-transform: uppercase;color: #705EDF;}
+.buynow-text {font-weight: 600;font-size: 18px;line-height: 26px;/* identical to box height, or 178% */margin-bottom: 0;letter-spacing: 1px;text-transform: uppercase;color: #AA83FF;}
 .btn-card {width: 60%;height: 50px;}
 .btn-card {background: white !important;color: #3300ff !important;transition: all .8s ease;    margin-right: 0 !important;}
 .btn-card:hover {background: linear-gradient(90deg, rgb(51, 0, 255) 0%, rgb(78, 232, 255) 100%) !important;color: white !important;}
@@ -217,7 +217,7 @@ footer .footer-left li {display: inline-block;margin: 0px 65px 0 0;padding: 25px
 .claim-nft-banner:before{background: url(../images/reward-bg-back.png) no-repeat left center;width: 100%;min-height: 600px;content: "";position: absolute;left: 0;bottom: -60px;background-size: 100%;}
 .claim-nft-banner-text h1{color: #fff;font-weight: 600;font-size: 70px;margin: 110px 0 15px;letter-spacing: 5px;}
 .claim-nft-banner-text span {font-weight: 300;display: block;font-size: 40px;margin: 0 0 10px;}
-.claim-nft-banner-text p {max-width: 70%;font-size: 26px;color: #BDC4FF;line-height: 40px;font-weight: 300;margin: 0 auto 70px;}
+.claim-nft-banner-text p {max-width: 77%;font-size: 26px;color: #BDC4FF;line-height: 40px;font-weight: 300;margin: 0 auto 70px;}
 .claim-nft-banner-solider-main{display: flex;align-items: center;justify-content: center;}
 .claim-nft-banner-solider{margin: 0 15px;}
 .claim-nft-banner-solider {}
@@ -265,28 +265,85 @@ footer .footer-left li {display: inline-block;margin: 0px 65px 0 0;padding: 25px
 .celebs-photos-inner{display: flex;align-items: center;}
 .celebs-photos-inner img {max-width: 16.67%;}
 
-.what-we-do{padding: 120px 0;}
-.what-we-do h3 {color: rgb(219 221 255 / 90%);font-weight: 400;font-size: 24px;}
-.what-we-do p {font-size: 22px;max-width: 40%;margin: 30px auto 0;}
+.what-we-do{padding: 170px 0;}
+.what-we-do h3 {color: #fff;font-weight: 500;font-size: 30px;text-transform: uppercase;letter-spacing: 9px;margin-bottom: 45px;}
+.what-we-do p {font-size: 22px;max-width: 50%;margin: 30px auto 0;}
 .what-we-do-image {margin: -140px 0 0;}
 
-.partnering-box h2 {font-size: 40px;text-transform: uppercase;color: rgb(255 255 255 / 50%);font-weight: 400;display: inline-block;background: linear-gradient(270deg, #2F3369 0%, #4D53A7 50%, #2F3867 100%);padding: 38px 65px;position: relative;border-radius: 16px;overflow: hidden;transition: padding 0.3s, width 0.3s, height 0.3s ease;}
+.what-we-do-text {
+    display: flex;
+    justify-content: center;
+}
+
+.what-we-middle {
+    background: linear-gradient(270deg, #163c4f 0%, #101560 50%, #1b3e50 100%);
+    padding: 60px;
+    border-radius: 30px;
+    border: 2px solid #2c88b4;
+    min-width: 500px;
+    margin: 0 155px;
+}
+
+.what-we-middle ul {
+    text-align: left;
+    margin: 43px 0 0;
+}
+
+.what-we-middle ul li {
+    padding: 18px 0;
+    border-bottom: 1px solid rgb(255 255 255 / 20%);
+    color: #fff;
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.what-we-middle ul li img {
+    margin-right: 25px;
+}
+
+.what-we-middle ul li:last-child {
+    border: none;
+    padding-bottom: 0;
+}
+.arrow-po-c {
+    position: absolute;
+    right: -70px;
+    top: 55px;
+}
+
+.creator-s-w {
+    position: relative;
+    padding-top: 70px;
+}
+
+.arrow-po-f {
+    position: absolute;
+    left: -70px;
+    top: 55px;
+}
+
+
+
+
+.partnering-box h2 {font-size: 40px;text-transform: uppercase;color: rgb(255 255 255 / 50%);font-weight: 400;display: inline-block;background: linear-gradient(270deg, #163c4f 0%, #101560 50%, #1b3e50 100%);padding: 38px 65px;position: relative;border-radius: 16px;overflow: hidden;transition: padding 0.3s, width 0.3s, height 0.3s ease;border: 1px solid #1f4e6c;}
 .partnering-box:hover h2 {padding: 55px 45px;background: linear-gradient(90deg, #00E3FF 0%,#1F50FF 25%,#1D20FF 50%,#1C5DFF 75%,#00E3FF 100%);font-size: 54px;color: #fff;transition: padding 0.3s, width 0.3s, height 0.3s ease;}
 .partnering-box {text-align: center;position: relative;margin: 0;}
-.partnering-main-box {margin-top: 70px;}
-.partnering-box h2:after {position: absolute;top: -3px;bottom: -4px;left: -3px;right: 0;background: linear-gradient(270deg, #1B4E55 0%, #B6A3FF 50%, #1E555D 100%);content: '';z-index: -1;border-radius: 20px;width: 101%;height: 104%;}
-.pop-up-box video {min-height: 300px;max-width: 300px;object-fit: cover;border-radius: 20px;border: 1px solid #101e3c;padding: 15px;overflow: hidden;position: absolute;left: 0;top: 50%;transform: translateY(-50%);}
+.partnering-main-box {margin: 100px 0;}
+.partnering-box h2:after {position: absolute;top: -3px;bottom: -4px;left: -3px;right: 0;background: linear-gradient(270deg, #5080a5 0%, #B6A3FF 50%, #1E555D 100%);content: '';z-index: -1;border-radius: 20px;width: 101%;height: 104%;}
+.pop-up-box video {min-height: 342px;max-width: 452px;object-fit: cover;border-radius: 20px;border: 2px solid #08bdff;padding: 15px;overflow: hidden;position: absolute;left: 0;top: 50%;transform: translateY(-50%);}
 .pop-up-box {position: absolute;width: 100%;top: 50%;transform: translateY(-50%);}
-.box-social {font-size: 48px;text-transform: uppercase;color: rgb(255 255 255 / 50%);font-weight: 400;display: inline-block;background: transparent;position: absolute;border-radius: 16px;border: 2px solid #4c56dd;padding: 15px;top: 50%;transform: translateY(-50%);right: 10%;min-width: 225px;opacity: 0;transition: 0.3s ease-in;}
+.box-social {font-size: 48px;text-transform: uppercase;color: rgb(255 255 255 / 50%);font-weight: 400;display: inline-block;background: transparent;position: absolute;border-radius: 16px;border: 2px solid #08bdff;padding: 15px;top: 50%;transform: translateY(-50%);right: 10%;min-width: 225px;opacity: 0;transition: 0.3s ease-in;}
 .box-social:after {position: absolute;top: -3px;bottom: -4px;left: -3px;right: 0;background: linear-gradient(270deg, #1B4E55 0%, #B6A3FF 50%, #1E555D 100%);z-index: -1;border-radius: 20px;width: 101%;height: 104%;}
-.box-social h3 {border-radius: 22px;border: 2px solid rgb(255 255 255 / 20%);font-size: 16px;color: #fff;text-transform: initial;font-weight: 300;padding: 10px;}
+.box-social p {font-size: 20px;color: #fff;font-weight: 300;text-transform: uppercase;margin: 0;}
+.box-social h4 {color: #fff;font-size: 60px;font-weight: 600;}
+.box-social h3 {border-radius: 22px;border: 2px solid rgb(255 255 255 / 20%);font-size: 16px;color: #fff;text-transform: initial;font-weight: 300;padding: 10px;letter-spacing: 2px;}
 .box-social li.list-inline-item {margin: 0;}
 .box-social h3 img {margin-right: 10px;}
 
 .partnering-box:hover .pop-up-box {opacity: 1;width: auto;}
 .partnering-box .pop-up-box {opacity: 0;width: 0;margin: 0 auto;left: 0;right: 0;}
 .partnering-box .pop-up-box video {opacity: 0;width: 0;padding: 0;transition: 0.3s ease-in;left: 30%;z-index: -99999;}
-.partnering-box:hover .pop-up-box video {opacity: 1;width: 300px;padding: 15px;left: 0;}
+.partnering-box:hover .pop-up-box video {opacity: 1;width: 342px;padding: 15px;left: 0;height: 452px;}
 .partnering-box:hover .pop-up-box .box-social {opacity: 1;width: 225px;right: 70px;}
 
 .partnering{padding: 0 0 140px;position: relative;}
