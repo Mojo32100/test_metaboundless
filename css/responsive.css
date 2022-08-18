@@ -4,12 +4,14 @@
 
 @media(max-width: 1680px){
 .rldm-image img {max-width: 900px;margin-left: -125px;}
+.boundless-banner:after {bottom: -134px;z-index: 0;background: linear-gradient(180deg, rgb(2 10 51 / 0%) 0%, rgb(3 6 17) 29%, rgb(11 6 34) 54%, rgb(13 7 40) 76%, rgb(18 11 52) 100%);}
+
 
 }
 
 @media(max-width: 1440px){
 .rldm-image img {max-width: 740px;margin-left: -85px;margin-top: 55px;}
-.boundless-banner:after{background: linear-gradient(180deg, rgb(2 10 51 / 0%) 0%, rgb(3 6 17) 29%, rgb(7 6 27) 54%, rgb(7 6 26) 76%, rgb(11 6 36) 100%);bottom: -120px;z-index: 0;}
+.boundless-banner:after{background: linear-gradient(180deg, rgb(2 10 51 / 0%) 0%, rgb(3 6 17) 29%, rgb(7 6 27) 54%, rgb(7 6 26) 76%, rgb(11 8 44) 100%);bottom: -134px;z-index: 0;}
 
 
 
