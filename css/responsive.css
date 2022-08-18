@@ -1,0 +1,52 @@
+@media(max-width: 1920px){
+
+}
+
+@media(max-width: 1680px){
+.rldm-image img {max-width: 900px;margin-left: -125px;}
+
+}
+
+@media(max-width: 1440px){
+.rldm-image img {max-width: 740px;margin-left: -85px;margin-top: 55px;}
+.boundless-banner:after{background: linear-gradient(180deg, rgb(2 10 51 / 0%) 0%, rgb(3 6 17) 29%, rgb(7 6 27) 54%, rgb(7 6 26) 76%, rgb(11 6 36) 100%);bottom: -120px;z-index: 0;}
+
+
+
+}
+
+@media(max-width: 1280px){
+
+}
+
+@media(max-width: 1199px){
+
+}
+
+@media(max-width: 1024px){
+
+}
+
+@media(max-width: 991px){
+.navbar, .navbar-brand {padding: 5px 0;}
+.navbar-toggler,.navbar-toggler:focus {background-color: transparent;outline: none;font-size: 15px;border-radius: 0;padding: 0;}
+.button-right {text-align: center;margin-bottom: 30px;display: inline-block;width: 100%;margin-top: 15px;}
+.navbar-nav li.nav-item {padding: 20px 15px;}
+.navbar-light .navbar-nav .nav-link{font-size: 16px;}
+.navbar-inner-bx{flex-direction: column;padding-bottom: 50px;}
+header{position: inherit;background-color: #000;}
+
+}
+
+@media(max-width: 767px){
+
+}
+
+@media(max-width: 575px){
+
+}
+
+@media(max-width: 414px){
+
+
+}
