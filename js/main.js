@@ -172,3 +172,8 @@ $(() => {
 
 
 
+(function () {
+  $(".toggle").on("click", function () {
+    return $(this).toggleClass("on");
+  });
+}.call(this));
