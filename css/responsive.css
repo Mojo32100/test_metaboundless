@@ -49,6 +49,14 @@ footer .footer-left a.nav-link {font-size: 20px;}
 .footer-right input[type="text"], .footer-right input[type="text"]:focus {min-width: 260px;}
 .footer-left ul {margin-top: 70px;}
 .watch-video {background-position: top 255px center;}
+.boundless-banner-about:after {background: linear-gradient(180deg, rgb(2 10 51 / 0%) 0%, rgb(3 7 19) 29%, rgb(3 7 19) 54%, rgb(3 8 20) 100%);}
+.culture-commerce-text h1 span {font-size: 44px;}
+.culture-commerce-text h1 {font-size: 45px;}
+.partnering-box h2 {font-size: 29px;}
+.partnering-box:hover h2 {font-size: 33px;}
+.partnering-box:hover .pop-up-box video {width: 300px;height: 300px;}
+.box-social h4 {font-size: 50px;}
+
 
 
 }
