@@ -126,7 +126,15 @@ footer li a {text-align: center;}
 footer {padding: 100px 0 0;}
 .footer-left ul {margin-top: 0;display: flex;flex-direction: column;align-items: center;padding: 25px 0;}
 .boundless-banner:after {bottom: -50px;background: linear-gradient(180deg, rgb(2 10 51 / 0%) 0%, rgb(3 6 17) 29%, rgb(14 9 42) 54%, rgb(19 11 56) 100%);}
-
+.boundless-banner.boundless-banner-about img {margin-top: -80px;}
+.boundless-banner-about:after {background: linear-gradient(180deg, rgb(2 10 51 / 0%) 0%, rgb(3 7 19) 29%, rgb(3 7 19) 54%, rgb(3 8 20) 100%);}
+.what-we-do p {margin: 0 auto;}
+.what-we-do-text {flex-direction: column;}
+.arrow-po-c {right: 10px;}
+.creator-s-w {max-width: 410px;padding: 0;margin: 0 auto;}
+.what-we-middle {max-width: 410px;margin: 60px auto;}
+.creator-s-w img {max-width: 100%;}
+.creator-s-w img {right: 57px;left: inherit;top: -4px;}
 
 
 }
