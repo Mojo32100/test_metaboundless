@@ -107,7 +107,7 @@ footer p {text-align: left;display: inline-block;margin: 0;}
 footer li a {text-align: center;}
 .footer-bottom ul {position: inherit;}
 footer {padding: 100px 0 0;}
-.footer-left ul {margin-top: 0;}
+.footer-left ul {margin-top: 0;display: flex;flex-direction: column;align-items: center;padding: 25px 0;}
 .boundless-banner:after {bottom: -50px;background: linear-gradient(180deg, rgb(2 10 51 / 0%) 0%, rgb(3 6 17) 29%, rgb(14 9 42) 54%, rgb(19 11 56) 100%);}
 
 
@@ -138,96 +138,53 @@ footer {padding: 100px 0 0;}
 }
 
 @media(max-width: 575px){
-.boundless-banner:after {
-    background: linear-gradient(180deg, rgb(2 10 51 / 0%) 0%, rgb(3 6 17) 29%, rgb(14 9 42) 54%, rgb(28 14 80) 100%);
-}
-
-h2 {}
-
-.title-all h2 {
-    font-size: 28px;
-    margin-bottom: 15px;
-}
-
-.title-all span {
-    font-size: 12px;
-}
-
-.concert-future {
-    padding: 60px 0;
-    background-position: top -105px center;
-}
-
-.rldm-image img {
-    max-width: 400px;
-    margin-left: -30px;
-}
-
-.concert-future-left h2 {
-    font-size: 27px;
-}
-
-.concert-future-left h2 span {
-    font-size: 17px;
-    margin-bottom: 30px;
-}
-
-.concert-future-left h3 span {
-    font-size: 14px;
-    letter-spacing: 2px;
-    line-height: 20px;
-    margin-bottom: 7px;
-}
-
-.concert-future-left h3 {
-    font-size: 26px;
-    margin-bottom: 15px;
-}
-
-.concert-future-left {
-    padding: 20px;
-}
-
-.btn-metaverse a.btn-boundless {
-    font-size: 16px;
-    letter-spacing: 3px;
-    min-width: 160px;
-    min-height: 40px;
-    margin-right: 0;
-    height: 60px;
-    line-height: 60px;
-    margin: 15px 0;
-}
-
-.btn-metaverse a.btn-boundless:after {
-    min-width: 160px;
-    min-height: 40px;
-}
-
-.btn-meta.btn-metaverse {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.title-all p {
-    font-size: 16px;
-    margin: 0;
-}
-
-.watch-video {
-    background-position: center;
-    background-size: cover;
-}
-header {
-    position: absolute;
-}
-
-.boundless-banner-text img {
-    max-width: 230px;
-    margin-top: -200px;
-}
+.boundless-banner:after {background: linear-gradient(180deg, rgb(2 10 51 / 0%) 0%, rgb(3 6 17) 29%, rgb(14 9 42) 54%, rgb(28 14 80) 100%);}
+.title-all h2 {font-size: 28px;margin-bottom: 15px;}
+.title-all span {font-size: 12px;}
+.concert-future {padding: 60px 0;background-position: top -105px center;}
+.rldm-image img {max-width: 400px;margin-left: -30px;}
+.concert-future-left h2 {font-size: 27px;}
+.concert-future-left h2 span {font-size: 17px;margin-bottom: 30px;}
+.concert-future-left h3 span {font-size: 14px;letter-spacing: 2px;line-height: 20px;margin-bottom: 7px;}
+.concert-future-left h3 {font-size: 26px;margin-bottom: 15px;}
+.concert-future-left {padding: 20px;}
+.btn-metaverse a.btn-boundless {font-size: 16px;letter-spacing: 3px;min-width: 160px;min-height: 40px;margin-right: 0;height: 60px;line-height: 60px;margin: 15px 0;}
+.btn-metaverse a.btn-boundless:after {min-width: 160px;min-height: 40px;}
+.btn-meta.btn-metaverse {display: flex;flex-direction: column;align-items: center;}
+.title-all p {font-size: 16px;margin: 0;}
+.watch-video {background-position: center;background-size: cover;}
+header {position: absolute;}
+.boundless-banner-text img {max-width: 190px;margin-top: -200px;}
 header{position: absolute;}
+.nft-rewardss-left p {font-size: 16px;max-width: 100%;line-height: 25px;}
+.nft-rewardss-left h2 {font-size: 28px;}
+.about-mb-token .title-all p {font-size: 16px;color: #fff;margin: 10px 0;line-height: 25px;}
+.about-mb-token .token-row {padding: 10px;}
+.about-mb-token-image {max-width: 200px;}
+a.btn-boundless.btn-mbtoken {margin: 25px 0 30px;}
+.comming-soon-text h2 {font-size: 28px;margin-bottom: 15px;}
+.comming-soon-text p {font-size: 16px;line-height: 25px;max-width: 100%;}
+.comming-soon-text {padding: 35px 10px 0;}
+.follow-us-text h2 {font-size: 28px;max-width: 100%;}
+.follow-us-text ul li a img {max-width: 42px;}
+.footer-left img {max-width: 160px;}
+footer .footer-left li {display: block;padding: 5px 0;margin: 0;line-height: inherit;}
+footer .footer-left a.nav-link {font-size: 16px;line-height: inherit;}
+.footer-right input[type="text"], .footer-right input[type="text"]:focus {min-width: 100%;}
+.footer-right button, .footer-right button:focus {width: 100%;border: none;margin: 15px 0 0;}
+.footer-bottom ul {order: 1;}
+footer p {order: 2;margin: 15px 0 0;}
+.footer-bottom {flex-direction: column;margin: 60px 0 0;}
+.footer-right h4 {font-size: 20px;}
+footer {padding: 60px 0 0;}
+.follow-us {padding: 60px 0 120px;}
+.follow-us-text ul {margin: 0;}
+.btn-meta-center-no-mg a.btn-boundless {margin: 0;}
+.owl-carousel .owl-item .collct-image-1 {max-width: 220px;}
+.about-mb-token .title-all p {font-size: 16px;line-height: 25px;margin: 15px 0 0;}
+a.btn-boundless.btn-mbtoken {margin: 25px 0 50px;}
+
+
 
 
 
