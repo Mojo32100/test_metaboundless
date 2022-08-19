@@ -65,7 +65,7 @@ footer .footer-left a.nav-link {font-size: 20px;}
 .arrow-po-c {width: 28px;top: 96px;right: -14px;}
 .arrow-po-f {width: 28px;top: 96px;left: -14px;}
 .navbar-nav li.nav-item {padding: 30px 12px;}
-
+.fav-celeb-text h2 {font-size: 44px;}
 
 
 }
@@ -81,7 +81,7 @@ footer .footer-left a.nav-link {font-size: 20px;}
 .navbar-nav li.nav-item {padding: 20px 15px;}
 .navbar-light .navbar-nav .nav-link{font-size: 16px;}
 .navbar-inner-bx{flex-direction: column;padding-bottom: 50px;}
-header{position: inherit;background-color: #03061499;border-bottom: 2px solid #090f2e;backdrop-filter: blur(25px);}
+header{position: absolute;background-color: #03061499;border-bottom: 2px solid #090f2e;backdrop-filter: blur(25px);}
 
 .boundless-banner-text img {max-width: 300px;margin-top: -160px;}
 .title-all h2 {font-size: 44px;}
@@ -143,6 +143,21 @@ footer {padding: 100px 0 0;}
 .partnering-main-box{margin: 0;}
 .arrow-po-f {transform: rotate(90deg);}
 .arrow-po-c{transform: rotate(90deg);}
+.concert-banner-text p{max-width: 90%;}
+.concert-banner-solider h2{font-size: 24px;margin: 20px 0 0;}
+.ticket-book {padding: 0 0 100px;}
+a.btn-boundless.btn-card {min-height: 62px;}
+.claim-nft-banner-text p{max-width: 85%;}
+.flip {width: auto;min-width: 220px;}
+.flip > .front, .flip > .back {height: auto;min-height: 310px;min-width: 100%;}
+.fav-celeb-text p {font-size: 16px;line-height: 28px;}
+.btn-celeb a.btn-boundless {margin: 0;}
+.fav-celeb-text h2 {margin: 0 0 20px;}
+.fav-celeb-image video {border-radius: 25px;}
+footer .footer-left li{padding: 5px 0;}
+.claim-nft-banner-solider h2 {font-size: 20px;}
+
+
 
 }
 
@@ -161,8 +176,24 @@ footer {padding: 100px 0 0;}
 .follow-us-text:after {min-width: 100%;}
 .rldm-image img {max-width: 560px;}
 .boundless-banner-about:after {background: linear-gradient(180deg, rgb(2 10 51 / 0%) 0%, rgb(3 7 19) 29%, rgb(3 9 24) 54%, rgb(4 9 24) 100%);}
-
-
+.concert-banner-solider {text-align: center;margin: 20px 0;}
+.mt-minus-sold {margin-top: 0;}
+.concert-banner-text h1 {margin: 0 0 15px;}
+.concert-banner-text p {font-size: 22px;line-height: 35px;margin-bottom: 30px;}
+.claim-nft-banner-solider-main {flex-direction: column;}
+.claim-nft-banner-text h1 {font-size: 60px;}
+.claim-nft-banner-text p {font-size: 22px;line-height: 35px;margin-bottom: 30px;max-width: 100%;}
+.claim-nft-banner-solider {transform: scale(1) !important;margin: 10px 0;}
+.flip {min-width: 320px;}
+.flip > .front, .flip > .back {min-height: 430px;border-radius: 20px;}
+.nft-rewardss {padding: 0;}
+.fav-celeb {padding: 130px 0 0;}
+.fav-celeb-1 {padding: 0 0 100px;}
+.fav-celeb-text {padding: 40px 45px 0;text-align: center;}
+.fav-celeb-2 {padding: 0 0 100px;}
+.fav-celeb-3 {padding: 0 0 120px;}
+.watch-video{padding: 0 0 100px;}
+.about-mb-token {padding: 100px 0 0;}
 
 
 
@@ -183,19 +214,18 @@ footer {padding: 100px 0 0;}
 .btn-metaverse a.btn-boundless {font-size: 16px;letter-spacing: 3px;min-width: 160px;min-height: 40px;margin-right: 0;height: 60px;line-height: 60px;margin: 15px 0;}
 .btn-metaverse a.btn-boundless:after {min-width: 160px;min-height: 40px;}
 .btn-meta.btn-metaverse {display: flex;flex-direction: column;align-items: center;}
-.title-all p {font-size: 16px;margin: 0;}
+.title-all p {font-size: 16px;margin: 0;line-height: 28px;}
 .watch-video {background-position: center;background-size: cover;}
 header {position: absolute;}
 .boundless-banner-text img {max-width: 230px;margin-top: -180px;}
-header{position: absolute;}
-.nft-rewardss-left p {font-size: 16px;max-width: 100%;line-height: 25px;}
+.nft-rewardss-left p {font-size: 16px;max-width: 100%;line-height: 28px;}
 .nft-rewardss-left h2 {font-size: 28px;}
 .about-mb-token .title-all p {font-size: 16px;color: #fff;margin: 10px 0;line-height: 25px;}
 .about-mb-token .token-row {padding: 10px;}
 .about-mb-token-image {max-width: 200px;}
 a.btn-boundless.btn-mbtoken {margin: 25px 0 30px;}
 .comming-soon-text h2 {font-size: 28px;margin-bottom: 15px;}
-.comming-soon-text p {font-size: 16px;line-height: 25px;max-width: 100%;}
+.comming-soon-text p {font-size: 16px;line-height: 28px;max-width: 100%;}
 .comming-soon-text {padding: 35px 10px 0;}
 .follow-us-text h2 {font-size: 28px;max-width: 100%;}
 .follow-us-text ul li a img {max-width: 42px;}
@@ -213,18 +243,18 @@ footer {padding: 60px 0 0;}
 .follow-us-text ul {margin: 0;}
 .btn-meta-center-no-mg a.btn-boundless {margin: 0;}
 .owl-carousel .owl-item .collct-image-1 {max-width: 220px;}
-.about-mb-token .title-all p {font-size: 16px;line-height: 25px;margin: 15px 0 0;}
+.about-mb-token .title-all p {font-size: 16px;line-height: 28px;margin: 15px 0 0;}
 a.btn-boundless.btn-mbtoken {margin: 25px 0 50px;}
 .boundless-banner-about:after {background: linear-gradient(180deg, rgb(2 10 51 / 0%) 0%, rgb(3 7 19) 29%, rgb(3 7 20) 54%, rgb(3 7 20) 100%);}
 .culture-commerce-text h1 span {font-size: 26px;line-height: 34px;}
 .culture-commerce-text h1 {font-size: 29px;}
-.culture-commerce-text p {font-size: 18px;line-height: 30px;max-width: 100%;}
+.culture-commerce-text p {font-size: 16px;line-height: 28px;max-width: 100%;}
 .culture-commerce {padding: 60px 0;}
 .sliding-text-1 li {max-width: 50%;}
 .what-we-do {padding: 60px 0;}
 .what-we-do p {max-width: 100%;}
 .what-we-do h3 {font-size: 16px;}
-.creator-s-w img {max-width: 290px;}
+.creator-s-w img {max-width: 100%;}
 .what-we-middle {min-width: 100%;}
 .creator-s-w img {right: 40px;}
 .partnering-box .pop-up-box {flex-direction: column;}
@@ -239,6 +269,28 @@ a.btn-boundless.btn-mbtoken {margin: 25px 0 50px;}
 .partnering {padding: 0 0 30px;}
 .partnering-main-box .partnering-box:first-child {margin-top: 0;}
 .boundless-banner.boundless-banner-about img {margin-top: -41px;}
+.creator-s-w{max-width: 100%;}
+.concert-banner-text span {font-size: 22px;}
+.concert-banner-text h1 {font-size: 28px;}
+.concert-banner-text p {font-size: 16px;line-height: 28px;max-width: 100%;}
+.concert-banner-solider h2 {font-size: 22px;}
+.buynow-text {font-size: 16px;line-height: 25px;}
+.concert-banner {padding: 170px 0 10px;}
+.claim-nft-banner:before{min-height: auto;}
+.claim-nft-banner-text h1 {font-size: 28px;margin-top: 80px;}
+.claim-nft-banner-text p {font-size: 16px;line-height: 28px;}
+.flip > .front, .flip > .back {min-height: 400px;}
+.claim-nft-banner-solider h2 {font-size: 18px;}
+.claim-nft-banner {padding: 90px 0 50px;}
+.fav-celeb-text h2 {font-size: 28px;}
+.fav-celeb-text {padding: 40px 0;}
+.fav-celeb-1 {padding: 0 0 60px;}
+.fav-celeb-text p {font-size: 16px;line-height: 28px;}
+.fav-celeb-2 {padding: 0 0 50px;}
+.fav-celeb-image video {min-height: 390px;}
+.fav-celeb-3 {padding: 0 0 60px;}
+.what-we-middle ul li {font-size: 16px;}
+.sliding-text li {font-size: 15px;}
 
 
 
