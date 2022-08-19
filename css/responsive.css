@@ -25,10 +25,31 @@
 }
 
 @media(max-width: 1280px){
+.boundless-banner:after{bottom: -184px;}
+
+
+
 
 }
 
 @media(max-width: 1199px){
+.boundless-banner:after {bottom: -10px;background: linear-gradient(180deg, rgb(2 10 51 / 0%) 0%, rgb(3 6 17) 29%, rgb(4 4 18) 54%, rgb(5 5 28) 100%);height: 80px;}
+.concert-future-left h2 {font-size: 36px;}
+.concert-future-left h2 span {font-size: 22px;}
+.concert-future-left h3 {font-size: 36px;}
+.concert-future-left {padding: 25px;}
+.btn-metaverse a.btn-boundless {font-size: 17px;min-width: 170px;min-height: 50px;}
+.btn-metaverse a.btn-boundless:after {min-width: 170px;min-height: 50px;}
+.rldm-image img {max-width: 620px;}
+.boundless-banner-text img {max-width: 370px;}
+.concert-future {background-size: cover;}
+.follow-us-text h2 {max-width: 70%;}
+footer .footer-left li {margin-right: 19px;}
+footer .footer-left a.nav-link {font-size: 20px;}
+.footer-right input[type="text"], .footer-right input[type="text"]:focus {min-width: 260px;}
+.footer-left ul {margin-top: 70px;}
+.watch-video {background-position: top 255px center;}
+
 
 }
 
@@ -43,15 +64,162 @@
 .navbar-nav li.nav-item {padding: 20px 15px;}
 .navbar-light .navbar-nav .nav-link{font-size: 16px;}
 .navbar-inner-bx{flex-direction: column;padding-bottom: 50px;}
-header{position: inherit;background-color: #000;}
+header{position: inherit;background-color: #03061499;border-bottom: 2px solid #090f2e;backdrop-filter: blur(25px);}
+
+.boundless-banner-text img {max-width: 300px;margin-top: -160px;}
+.title-all h2 {font-size: 44px;}
+.title-all span {font-size: 15px;}
+.title-all span:after {top: 9px;right: -88px;}
+.title-all.title-center span:before {top: 9px;left: -90px;}
+.title-all p {font-size: 20px;margin: 0 0 40px;}
+.watch-video {background-position: top 252px center;}
+.watch-video-slider .owl-item .item a h3 {font-size: 16px;line-height: 22px;}
+a.btn-boundless {font-size: 16px;min-width: 190px;min-height: auto;}
+a.btn-boundless:after {min-width: 190px;}
+.nft-rewardss-left p {font-size: 18px;}
+.rldm-image {text-align: center;}
+.rldm-image img {margin: 0 0 25px;}
+.concert-future-left h2 span {margin-bottom: 40px;}
+.btn-metaverse a.btn-boundless {margin-bottom: 12px;}
+.concert-future-left {margin-top: -50px;}
+.concert-future {background-position: top -65px center;}
+.watch-video {padding: 0;background-position: top 155px center;}
+.watch-video-slider .owl-item .item {margin: 20px 0;}
+.nft-rewardss-left h2 {font-size: 35px;}
+.nft-rewardss-left p {margin-bottom: 10px;}
+.about-mb-token {padding: 0;}
+.about-mb-token .title-all p {font-size: 20px;}
+.about-mb-token .token-row {padding: 45px 20px;}
+.comming-soon-image {max-width: 550px;margin: 0 auto;}
+.comming-soon-text h2 {font-size: 44px;}
+.comming-soon-text {padding: 50px 25px 0 55px;}
+.comming-soon:before {display: none;}
+.comming-soon-text p {font-size: 22px;}
+.comming-soon {padding: 100px 0 30px;}
+.follow-us-text h2 {font-size: 40px;}
+.about-mb-token-image {max-width: 290px;}
+.about-mb-token .token-row {margin: 0 15px;}
+.footer-top {flex-direction: column;justify-content: center;}
+.footer-left {text-align: center;}
+.footer-right {text-align: center;}
+footer p {text-align: left;display: inline-block;margin: 0;}
+.footer-bottom {text-align: left;padding: 25px 0;display: flex;align-items: center;justify-content: space-between;margin: 85px 0 0;}
+footer li a {text-align: center;}
+.footer-bottom ul {position: inherit;}
+footer {padding: 100px 0 0;}
+.footer-left ul {margin-top: 0;}
+.boundless-banner:after {bottom: -50px;background: linear-gradient(180deg, rgb(2 10 51 / 0%) 0%, rgb(3 6 17) 29%, rgb(14 9 42) 54%, rgb(19 11 56) 100%);}
+
+
 
 }
 
 @media(max-width: 767px){
+.boundless-banner:after {bottom: -50px;background: linear-gradient(180deg, rgb(2 10 51 / 0%) 0%, rgb(3 6 17) 29%, rgb(14 9 42) 54%, rgb(19 11 56) 100%);}
+.nft-rewardss-middle {flex-direction: column;justify-content: center;margin-top: -110px;}
+.nft-rewardss-left {order: 1;text-align: center;}
+.nft-rewardss-left p {margin: 0 auto 25px;max-width: 90%;}
+.btn-meta.btn-meta-center-no-mg {text-align: center !important;}
+.mb-token-image {text-align: center;}
+.owl-carousel .owl-item .collct-image-1 {left: inherit;margin-left: 0;}
+.nftss-slider .owl-dots {left: 0;right: 0;top: inherit;}
+.about-mb-token .token-row:before {z-index: 1;}
+.mb-token-tit {position: relative;z-index: 111;}
+.follow-us-text:before {min-width: 100%;}
+.follow-us-text:after {min-width: 100%;}
+.rldm-image img {max-width: 560px;}
+
+
+
+
+
+
 
 }
 
 @media(max-width: 575px){
+.boundless-banner:after {
+    background: linear-gradient(180deg, rgb(2 10 51 / 0%) 0%, rgb(3 6 17) 29%, rgb(14 9 42) 54%, rgb(17 10 52) 100%);
+}
+
+h2 {}
+
+.title-all h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.title-all span {
+    font-size: 12px;
+}
+
+.concert-future {
+    padding: 60px 0;
+}
+
+.rldm-image img {
+    max-width: 400px;
+    margin-left: -30px;
+}
+
+.concert-future-left h2 {
+    font-size: 27px;
+}
+
+.concert-future-left h2 span {
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.concert-future-left h3 span {
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    margin-bottom: 7px;
+}
+
+.concert-future-left h3 {
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.concert-future-left {
+    padding: 20px;
+}
+
+.btn-metaverse a.btn-boundless {
+    font-size: 16px;
+    letter-spacing: 3px;
+    min-width: 160px;
+    min-height: 40px;
+    margin-right: 0;
+    height: 60px;
+    line-height: 60px;
+    margin: 15px 0;
+}
+
+.btn-metaverse a.btn-boundless:after {
+    min-width: 160px;
+    min-height: 40px;
+}
+
+.btn-meta.btn-metaverse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-all p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.watch-video {
+    background-position: center;
+    background-size: cover;
+}
+
+
 
 }
 
