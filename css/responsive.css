@@ -154,7 +154,7 @@ footer {padding: 100px 0 0;}
 .title-all p {font-size: 16px;margin: 0;}
 .watch-video {background-position: center;background-size: cover;}
 header {position: absolute;}
-.boundless-banner-text img {max-width: 190px;margin-top: -200px;}
+.boundless-banner-text img {max-width: 190px;margin-top: -280px;}
 header{position: absolute;}
 .nft-rewardss-left p {font-size: 16px;max-width: 100%;line-height: 25px;}
 .nft-rewardss-left h2 {font-size: 28px;}
@@ -190,7 +190,8 @@ a.btn-boundless.btn-mbtoken {margin: 25px 0 50px;}
 
 }
 
-@media(max-width: 414px){
+@media(max-width: 375px){
+.boundless-banner-text img {max-width: 190px;margin-top: -220px;}
 
 
 }
