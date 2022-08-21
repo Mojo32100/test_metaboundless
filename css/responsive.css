@@ -217,12 +217,12 @@ footer .footer-left li{padding: 5px 0;}
 .creator-s-w img.arrow-po-c {order: 3;position: initial;}
 .creator-s-w h3 {order: 2;margin: 40px 0 25px;}
 .creator-f-w h3 {order: inherit;margin: 25px 0 40px;}
-.title-concert-future p {margin: 0 auto}
+.title-all.title-concert-future p {margin: 0 auto}
 
 }
 
 @media(max-width: 767px){
-.boundless-banner:after {bottom: -50px;background: linear-gradient(180deg, rgb(2 10 51 / 0%) 0%, rgb(3 6 17) 29%, rgb(14 9 42) 54%, rgb(19 11 56) 100%);}
+.boundless-banner:after {bottom: -50px;background: linear-gradient(180deg, rgb(2 10 51 / 0%) 0%, rgb(3 6 17) 29%, rgb(14 9 42) 54%, rgb(36 18 92) 100%);}
 .nft-rewardss-middle {flex-direction: column;justify-content: center;margin-top: -110px;}
 .nft-rewardss-left {order: 1;text-align: center;}
 .nft-rewardss-left p {margin: 0 auto 25px;max-width: 90%;}
@@ -308,7 +308,7 @@ footer .footer-left li{padding: 5px 0;}
 }
 
 @media(max-width: 575px){
-.boundless-banner:after {background: linear-gradient(180deg, rgb(2 10 51 / 0%) 0%, rgb(3 6 17) 29%, rgb(13 7 38) 54%, rgb(23 13 66) 100%);}
+.boundless-banner:after {background: linear-gradient(180deg, rgb(2 10 51 / 0%) 0%, rgb(3 6 17) 29%, rgb(13 7 38) 54%, rgb(43 21 107) 100%);}
 .title-all h2 {font-size: 28px;margin-bottom: 15px;}
 .title-all span {font-size: 12px;}
 .concert-future {padding: 60px 0;background-position: top -105px center;}
