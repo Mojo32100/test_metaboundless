@@ -197,10 +197,10 @@ footer ul {margin: 0;}
 footer .footer-left a.nav-link {width: auto;height: auto;border: none;padding: 0;font-size: 22px;color: rgb(255 255 255 / 60%);font-weight: 300;}
 footer .footer-left a.nav-link:hover {background: linear-gradient(90deg, #3300FF 0%,#4EE8FF 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
 footer .footer-left li {display: inline-block;margin: 0px 65px 0 0;padding: 25px 0;}
-.footer-right {text-align: left;}
+.footer-right {text-align: center;}
 .footer-right h4 {font-size: 24px;color: #fff;font-weight: 500;}
 .footer-right input[type="text"],.footer-right input[type="text"]:focus {font-size: 16px;color: #575757;padding: 11px 15px;background-color: #040717;border: 1px solid #6D769E;min-width: 335px;border-radius: 6px;margin-right: 10px;outline: none;}
-.footer-right button,.footer-right button:focus {margin: 0;font-size: 18px;text-transform: uppercase;color: #fff;font-weight: 600;display: inline-block;background: linear-gradient(90deg, #3300ff 0%,#4ee8ff 100%);border-radius: 5px;text-decoration: none;padding: 12px 15px;font-size: 16px;font-weight: 500;letter-spacing: 2px;border-radius: 8px;cursor: pointer;outline: none;}
+.footer-right button,.footer-right button:focus {margin: 0;font-size: 18px;text-transform: uppercase;color: #fff;font-weight: 600;display: inline-block;background: linear-gradient(90deg, #3300ff 0%,#4ee8ff 100%);border-radius: 5px;text-decoration: none;padding: 12px 53px;font-size: 16px;font-weight: 500;letter-spacing: 2px;border-radius: 8px;cursor: pointer;outline: none;}
 .footer-bottom {border-top: 1px solid rgb(255 255 255 / 30%);}
 .footer-bottom ul {position: absolute;right: 0;bottom: 0;}
 .footer-left ul {margin-top: 70px;}
