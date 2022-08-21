@@ -216,7 +216,7 @@ $('.moreless-button3').click(function() {
 // utility slider
 $(function(){
   $('.slider-thumb').slick({
-    autoplay: true,
+    autoplay: false,
     vertical: true,
     infinite: true,
     verticalSwiping: true,
@@ -236,7 +236,7 @@ $(function(){
 
 
   $('.slider-preview').slick({
-    autoplay: true,
+    autoplay: false,
     vertical: true,
     infinite: true,
     slidesPerRow: 1,
