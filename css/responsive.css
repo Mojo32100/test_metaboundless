@@ -196,7 +196,7 @@ li.type-image.slick-slide.slick-current.slick-active .utility-text {padding: 25p
 .utility-text {padding: 20px;border-radius: 10px;}
 .slick-vertical .slick-slide iframe {max-width: 100%;min-height: auto;}
 .module-gallery .slider-wrapper {max-height: 340px;}
-
+.fav-celeb-text a.moreless-button1, .fav-celeb-text a.moreless-button2, .fav-celeb-text a.moreless-button3 {font-size: 17px;margin: 0 0 35px;}
 
 
 }
@@ -218,7 +218,6 @@ li.type-image.slick-slide.slick-current.slick-active .utility-text {padding: 25p
 .boundless-banner-about:after {background: linear-gradient(180deg, rgb(2 10 51 / 0%) 0%, rgb(3 7 19) 29%, rgb(3 9 24) 54%, rgb(4 9 24) 100%);}
 .concert-banner-solider {text-align: center;margin: 20px 0;}
 .mt-minus-sold {margin-top: 0;}
-.concert-banner-text h1 {margin: 0 0 15px;}
 .concert-banner-text p {font-size: 22px;line-height: 35px;margin-bottom: 30px;}
 .claim-nft-banner-solider-main {flex-direction: column;}
 .claim-nft-banner-text h1 {font-size: 60px;}
@@ -321,8 +320,8 @@ a.btn-boundless.btn-mbtoken {margin: 25px 0 50px;}
 .partnering-main-box .partnering-box:first-child {margin-top: 0;}
 .boundless-banner.boundless-banner-about img {margin-top: -41px;}
 .creator-s-w{max-width: 100%;}
-.concert-banner-text span {font-size: 22px;}
-.concert-banner-text h1 {font-size: 28px;}
+.concert-banner-text span {font-size: 15px;}
+.concert-banner-text h1 {font-size: 28px;margin: 0 0 15px;}
 .concert-banner-text p {font-size: 16px;line-height: 28px;max-width: 100%;}
 .concert-banner-solider h2 {font-size: 22px;}
 .buynow-text {font-size: 16px;line-height: 25px;}
@@ -336,7 +335,7 @@ a.btn-boundless.btn-mbtoken {margin: 25px 0 50px;}
 .fav-celeb-text h2 {font-size: 28px;}
 .fav-celeb-text {padding: 40px 0;}
 .fav-celeb-1 {padding: 0 0 60px;}
-.fav-celeb-text p {font-size: 16px;line-height: 28px;}
+.fav-celeb-text p {font-size: 16px;line-height: 28px;font-weight: 300;}
 .fav-celeb-2 {padding: 0 0 50px;}
 .fav-celeb-image video {min-height: 390px;}
 .fav-celeb-3 {padding: 0 0 60px;}
@@ -348,6 +347,10 @@ a.btn-boundless.btn-mbtoken {margin: 25px 0 50px;}
 .module-gallery .slider-thumb .slick-track{width: 100% !important;}
 .utility-text{margin: 5px 0;}
 .title-all.title-concert-future p{max-width: 100%;}
+.gallery-images-g a{padding: 5px;}
+.gallery-banner {padding: 170px 0 60px;}
+.gallery-images-g a {-ms-flex: 0 0 50%;flex: 0 0 50%;max-width: 50%;}
+
 
 
 }
