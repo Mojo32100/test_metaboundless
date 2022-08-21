@@ -130,7 +130,7 @@ li.type-image.slick-slide.slick-current.slick-active .utility-text p{color: #fff
 .nft-rewardss-middle{display: flex;align-items: center;justify-content: space-between;}
 .nft-rewardss-left h2 {font-size: 48px;font-weight: 500;color: #DBDDFF;margin-bottom: 20px;}
 .nft-rewardss-left p {font-size: 22px;max-width: 70%;color: #DBDDFF;font-weight: 300;margin: 0 0 50px;}
-.nft-rewardss-left a {background: linear-gradient(90deg, #3300FF 0%,#4EE8FF 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;font-weight: 600;}
+.nft-rewardss-left p a {background: linear-gradient(90deg, #3300FF 0%,#4EE8FF 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;font-weight: 600;}
 .nft-rewardss-left p span {font-weight: 600;}
 .nftss-slider .owl-item .item {margin: 100px 0 30px;}
 .nftss-slider .owl-dots {position: absolute;left: 0;top: 30px;text-align: center;}
