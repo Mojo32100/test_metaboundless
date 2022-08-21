@@ -383,3 +383,9 @@ footer .footer-left li {display: inline-block;margin: 0px 65px 0 0;padding: 25px
 
 
 .boundless-banner-about:after {position: absolute;content: "";max-width: 100%;height: 185px;bottom: -90px;z-index: 9999;left: 0;right: 0;background: linear-gradient(180deg, rgb(2 10 51 / 0%) 0%, rgb(3 9 21 / 99%) 29%, rgb(4 11 24) 54%, rgb(3 11 24) 76%, rgb(4 11 24) 100%);}
+
+
+/*gallery*/
+.gallery-images-g {display: flex;flex-wrap: wrap;}
+.gallery-images-g a {-webkit-box-flex: 0;-ms-flex: 0 0 33.33%;flex: 0 0 33.33%;max-width: 33.33%;padding: 15px;}
+.gallery-images-g a img {width: 100%;}
