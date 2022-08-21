@@ -106,6 +106,7 @@ a.btn-boundless:after {position: absolute;content: "";min-width: 205px;height: 6
 .module-gallery {width: 100%;}
 .module-gallery .slider-wrapper {display: flex;max-height: 456px;}
 .module-gallery .slider-thumb {min-width: 505px;margin-top: 40px;}
+.slick-vertical .slick-slide iframe {min-width: 594px;min-height: 444px;border: none;border-radius: 35px;}
 .module-gallery .slider-preview {max-width: 100%;overflow: hidden;padding-left: 110px;}
 .module-gallery .slider-thumb li {max-width: 505px;}
 .module-gallery .slider-thumb .slick-prev,.module-gallery .slider-thumb .slick-next {z-index: 1;height: 1em;width: 100%;background-color: #000;opacity: 0.3;transition: opacity 300ms ease;font-size: 1.5em;color: #fff;}
