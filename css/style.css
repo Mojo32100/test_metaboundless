@@ -77,7 +77,7 @@ a.btn-boundless.btn-white-boundless {background: #fff;color: #361dff;}
 a.btn-boundless {position: relative;margin: 0;font-size: 18px;text-transform: uppercase;color: #fff;font-weight: 600;display: inline-block;background: linear-gradient(90deg, #3300ff 0%,#4ee8ff 100%);border-radius: 5px;text-decoration: none;margin-bottom: 25px;letter-spacing: 4px;min-width: 205px;min-height: 65px;line-height: 65px;margin-right: 35px;text-align: center;}
 a.btn-boundless:after {position: absolute;content: "";min-width: 205px;height: 65px;border: 2px solid #3300FF;border-radius: 5px;left: 10px;z-index: -1;bottom: -10px;}
 
-.concert-future{padding: 100px 10px;background: url(../images/concert-bg.png) no-repeat center;background-size: 100%;}
+.concert-future{padding: 100px 10px;background: url(../images/concert-bg.png) no-repeat center;background-size: cover;}
 .concert-future-left h2{font-size: 48px;color: #fff;max-width: 80%;font-weight: 500;margin: 0 auto;}
 .concert-future-left h2 span{font-size: 24px;color: #fff;max-width: 80%;font-weight: 200;display: block;margin: 10px auto 50px;}
 .concert-future-left{background: rgb(0 0 0 / 10%);background-size: 100%;text-align: center;backdrop-filter: blur(50px);padding: 50px;border-radius: 10px;border: 1px solid #826caf;max-width: 630px;margin: 0 auto;}
@@ -87,7 +87,7 @@ a.btn-boundless:after {position: absolute;content: "";min-width: 205px;height: 6
 .btn-metaverse a.btn-boundless {background: #fff;color: #361dff;}
 .btn-metaverse a.btn-boundless:hover {background: linear-gradient(90deg, #3300ff 0%,#4ee8ff 100%);color: #fff;}
 .title-concert-future span {font-size: 22px;}
-.title-concert-future p {font-size: 22px;margin: 15px 0 20px;}
+.title-concert-future p {font-size: 22px;margin: 15px 0 20px;max-width: 82%;margin: 0 auto;}
 .title-concert-future h3 {color: rgb(219 221 255 / 90%);font-size: 20px;max-width: 55%;line-height: 30px;margin: 0 auto;}
 .title-concert-future h3 label {color: #fff;}
 
