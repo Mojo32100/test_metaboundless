@@ -103,7 +103,7 @@ a.btn-boundless:after {position: absolute;content: "";min-width: 205px;height: 6
 .btn-meta-center-no-mg a.btn-boundless {margin: 20px 0 0;}
 
 .slider-wrapper{display: flex;}
-.module-gallery {width: 100%;/* padding: 25px 0; */}
+.module-gallery {width: 100%;padding: 0 0 65px;}
 .module-gallery .slider-wrapper {display: flex;max-height: 466px;}
 .module-gallery .slider-thumb {min-width: 505px;margin-top: 40px;}
 .slick-vertical .slick-slide iframe {min-width: 594px;min-height: 444px;border-radius: 35px;padding: 10px;border: 2px solid #4cd6ff;}
