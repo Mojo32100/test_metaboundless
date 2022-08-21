@@ -25,40 +25,7 @@
 
 }
 
-@media(max-width: 1250px){
-    .module-gallery .slider-wrapper ul {
-    padding: 0;
-    margin: 0;
-    max-height: 456px;
-}
 
-.module-gallery .slider-wrapper ul:nth-child(1) {
-width: 50%;
-}
-
-.slick-track {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.module-gallery .slider-wrapper {
-    max-height: 912px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 30px;
-}
-
-.slider-video {
-    width: 100%;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-}
-
-}
 
 @media(max-width: 1280px){
 .boundless-banner:after {    background: linear-gradient(180deg, rgb(43 21 108 / 0%) 0%, #030614f0 29%, #030614f7 54%, #0306147a 76%, rgb(35 18 90) 100%);}
@@ -103,6 +70,13 @@ footer .footer-left a.nav-link {font-size: 20px;}
 .arrow-po-f {width: 28px;top: 96px;left: -14px;}
 .navbar-nav li.nav-item {padding: 30px 12px;}
 .fav-celeb-text h2 {font-size: 44px;}
+.watch-video {background-size: cover;background-position: center;}
+.module-gallery .slider-preview {padding-left: 20px;}
+.slick-vertical .slick-slide iframe {min-width: 100%;min-height: 385px;}
+.module-gallery .slider-wrapper {max-height: 405px;}
+.module-gallery .slider-thumb{padding-left: 0;}
+
+
 
 
 }
@@ -144,7 +118,6 @@ a.create-btn {margin-top: 35px;}
 .title-all span:after {top: 9px;right: -88px;}
 .title-all.title-center span:before {top: 9px;left: -90px;}
 .title-all p {font-size: 20px;margin: 0 0 40px;}
-.watch-video {background-position: top 252px center;}
 .watch-video-slider .owl-item .item a h3 {font-size: 16px;line-height: 22px;}
 a.btn-boundless {font-size: 16px;min-width: 190px;min-height: auto;}
 a.btn-boundless:after {min-width: 190px;}
@@ -155,7 +128,6 @@ a.btn-boundless:after {min-width: 190px;}
 .btn-metaverse a.btn-boundless {margin-bottom: 12px;}
 .concert-future-left {margin-top: -50px;}
 .concert-future {background-position: top -65px center;}
-.watch-video {padding: 0;background-position: top 155px center;}
 .watch-video-slider .owl-item .item {margin: 20px 0;}
 .nft-rewardss-left h2 {font-size: 35px;}
 .nft-rewardss-left p {margin-bottom: 10px;}
@@ -189,10 +161,7 @@ footer {padding: 100px 0 0;}
 .creator-s-w {max-width: 410px;padding: 0;margin: 0 auto;display: flex;align-items: center;justify-content: center;flex-direction: column;}
 .what-we-middle {max-width: 410px;margin: 40px auto;}
 .creator-s-w img {max-width: 100%;}
-.creator-f-w img.arrow-po-f {
-    order: inherit;
-    position: initial;
-}
+.creator-f-w img.arrow-po-f {order: inherit;position: initial;}
 .partnering-box .pop-up-box {opacity: 1;position: unset;width: auto;transform: unset;display: flex;align-items: center;justify-content: space-around;}
 .partnering-box .pop-up-box video,.partnering-box:hover .pop-up-box video {position: unset;opacity: 1;width: auto;transform: unset;max-width: 250px;min-height: auto;height: 280px;}
 .partnering-box .pop-up-box .box-social {position: unset;opacity: 1;width: auto;max-width: 250px;min-height: 250px;transform: unset;margin: 0;height: 280px;}
@@ -218,6 +187,17 @@ footer .footer-left li{padding: 5px 0;}
 .creator-s-w h3 {order: 2;margin: 40px 0 25px;}
 .creator-f-w h3 {order: inherit;margin: 25px 0 40px;}
 .title-all.title-concert-future p {margin: 0 auto}
+.module-gallery .slider-thumb li {max-width: 345px;}
+.utility-text p {font-size: 15px;line-height: 22px;margin: 0;}
+.module-gallery .slider-thumb {min-width: 375px;margin: 20px 0 0;}
+.module-gallery .slider-wrapper {max-height: 270px;}
+li.type-image.slick-slide.slick-current.slick-active .utility-text p {font-size: 18px;}
+li.type-image.slick-slide.slick-current.slick-active .utility-text {padding: 25px 20px;}
+.utility-text {padding: 20px;border-radius: 10px;}
+.slick-vertical .slick-slide iframe {max-width: 100%;min-height: auto;}
+.module-gallery .slider-wrapper {max-height: 340px;}
+
+
 
 }
 
@@ -255,60 +235,24 @@ footer .footer-left li{padding: 5px 0;}
 .watch-video{padding: 0 0 100px;}
 .about-mb-token {padding: 100px 0 0;}
 .comming-soon-text{text-align: center;}
-
+.module-gallery .slider-thumb li {max-width: 100%;min-width: 100%;}
+.module-gallery .slider-thumb {min-width: 100%;padding: 0;margin-top: 5px;}
+.module-gallery .slider-wrapper{max-height: 760px;}
+.module-gallery .slider-preview{padding-left: 0;}
+.slick-slide img {margin: 0 auto;}
+.utility-text{padding: 15px 15px;}
+.slick-track {margin: 0 auto;}
+.module-gallery .slider-wrapper {flex-direction: column-reverse;}
+.slick-initialized .slick-slide{text-align: center;}
+.slick-slide iframe {border-radius: 35px;padding: 10px;border: 2px solid #4cd6ff;}
 
 
 }
 
-@media(max-width: 780px) {
 
-    .module-gallery .slider-thumb li {
-        width: 380px !important;
-    }
-    
-    .module-gallery .slider-wrapper ul:nth-child(1) {
-        width: 100% !important;
-        }
-
-    .slick-track {
-        width: 100% !important;
-        margin-top: 20px;
-    }
-
-    .slider-video {
-        display: none !important;
-        width: 100% !important;
-    position: relative !important;
-    left: 0px !important;
-    top: 0px !important;
-    }
-
-    .slider-video iframe {
-        width: 480px !important;
-        height: 320px !important;
-        border: none;
-        border-radius: 35px;
-    }
-
-    .slider-video.slick-current {
-        display: block !important;
-    }
-
-    .utility-text span {
-        font-size: 30px !important;
-    }
-
-    .utility-text p {
-        font-size: 20px !important;
-    }
-
-    li.type-image.slick-slide.slick-current.slick-active .utility-text p {
-        font-size: 22px !important;
-    }
-}
 
 @media(max-width: 575px){
-.boundless-banner:after {background: linear-gradient(180deg, rgb(2 10 51 / 0%) 0%, rgb(3 6 17) 29%, rgb(13 7 38) 54%, rgb(43 21 107) 100%);}
+.boundless-banner:after {background: linear-gradient(180deg, rgb(2 10 51 / 0%) 0%, rgb(3 6 17) 29%, rgb(13 7 38) 54%, rgb(40 20 103) 100%);}
 .title-all h2 {font-size: 28px;margin-bottom: 15px;}
 .title-all span {font-size: 12px;}
 .concert-future {padding: 60px 0;background-position: top -105px center;}
@@ -400,54 +344,12 @@ a.btn-boundless.btn-mbtoken {margin: 25px 0 50px;}
 .sliding-text li {font-size: 15px;}
 .box-social ul {display: flex;justify-content: center;}
 .partnering-box {margin: 30px auto;}
+.slider-video iframe {width: 100% !important;height: 300px !important;}
+.module-gallery .slider-thumb .slick-track{width: 100% !important;}
+.utility-text{margin: 5px 0;}
+.title-all.title-concert-future p{max-width: 100%;}
 
-
-.slider-video iframe {
-    width: 380px !important;
-    height: 300px !important;
-    border: none;
-    border-radius: 35px;
-}
 
 }
 
-@media(max-width: 410px) {
 
-    .module-gallery .slider-thumb li {
-        width: 320px !important;
-    }
-    
-
-    .slider-video iframe {
-        width: 340px !important;
-        height: 250px !important;
-        border: none;
-        border-radius: 35px;
-    }
-
-    .utility-text span {
-        font-size: 25px !important;
-    }
-
-    .utility-text p {
-        font-size: 18px !important;
-    }
-
-    li.type-image.slick-slide.slick-current.slick-active .utility-text p {
-        font-size: 20px !important;
-    }
-}
-@media(max-width: 375px){
-
-    .module-gallery .slider-thumb li {
-        width: 290px !important;
-    }
-    
-
-    .slider-video iframe {
-        width: 300px !important;
-        height: 230px !important;
-        border: none;
-        border-radius: 35px;
-    }
-}
