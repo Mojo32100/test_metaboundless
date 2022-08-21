@@ -53,7 +53,6 @@ a.login-btn:hover{color: #4077ff;}
 a.create-btn {position: relative;padding: 10px 35px;margin: 0;font-size: 18px;text-transform: uppercase;color: #fff;font-weight: 600;min-width: 155px;display: inline-block;border: 2px solid #270cc1;border-radius: 10px;text-decoration: none;text-align: center;}
 
 .boundless-banner {padding: 0;text-align: right;height: 100vh;position: relative;}
-.boundless-banner:after {position: absolute;content: "";max-width: 100%;height: 185px;bottom: -90px;z-index: 9999;left: 0;right: 0;background: linear-gradient(180deg, rgb(2 10 51 / 0%) 0%, rgb(3 6 17) 29%, rgb(11 6 34) 54%, rgb(13 7 40) 76%, rgb(18 11 46) 100%);}
 .boundless-banner-text {text-align: center;width: 100%;display: flex;align-items: center;justify-content: center;flex-direction: column;position: absolute;top: 53%;transform: translateY(-50%);}
 .boundless-banner-text img {width: auto;}
 .boundless-banner-text h1{color: #fff;font-weight: 600;font-size: 60px;margin: 0;text-transform: uppercase;letter-spacing: 5px;}
@@ -87,6 +86,10 @@ a.btn-boundless:after {position: absolute;content: "";min-width: 205px;height: 6
 .rldm-image img {max-width: 1000px;margin-left: -95px;}
 .btn-metaverse a.btn-boundless {background: #fff;color: #361dff;}
 .btn-metaverse a.btn-boundless:hover {background: linear-gradient(90deg, #3300ff 0%,#4ee8ff 100%);color: #fff;}
+.title-concert-future span {font-size: 22px;}
+.title-concert-future p {font-size: 22px;margin: 15px 0 20px;}
+.title-concert-future h3 {color: rgb(219 221 255 / 90%);font-size: 20px;max-width: 55%;line-height: 30px;margin: 0 auto;}
+.title-concert-future h3 label {color: #fff;}
 
 .watch-video{padding: 100px 0;background: url(../images/watch-video-bg.png) no-repeat center;background-size: 100%;}
 .watch-video-slider .owl-item .item {transition: all .25s ease-in-out; margin: 50px 0;-webkit-transform: scale(0.90);-ms-transform: scale(0.90);transform: scale(0.90);text-align: center;}
@@ -129,6 +132,8 @@ a.btn-boundless:after {position: absolute;content: "";min-width: 205px;height: 6
 .flip > .front,.flip > .back {display: block;color: white;width: inherit;background-size: cover !important;background-position: center !important;height: 430px;padding: 1em 2em;background: transparent;border-radius: 30px;overflow: hidden;}
 .flip > .front p,.flip > .back p {font-size: 0.9125rem;line-height: 160%;color: #999;}
 .text-shadow {text-shadow: 1px 1px rgba(0, 0, 0, 0.04), 2px 2px rgba(0, 0, 0, 0.04), 3px 3px rgba(0, 0, 0, 0.04), 4px 4px rgba(0, 0, 0, 0.04), 0.125rem 0.125rem rgba(0, 0, 0, 0.04), 6px 6px rgba(0, 0, 0, 0.04), 7px 7px rgba(0, 0, 0, 0.04), 8px 8px rgba(0, 0, 0, 0.04), 9px 9px rgba(0, 0, 0, 0.04), 0.3125rem 0.3125rem rgba(0, 0, 0, 0.04), 11px 11px rgba(0, 0, 0, 0.04), 12px 12px rgba(0, 0, 0, 0.04), 13px 13px rgba(0, 0, 0, 0.04), 14px 14px rgba(0, 0, 0, 0.04), 0.625rem 0.625rem rgba(0, 0, 0, 0.04), 16px 16px rgba(0, 0, 0, 0.04), 17px 17px rgba(0, 0, 0, 0.04), 18px 18px rgba(0, 0, 0, 0.04), 19px 19px rgba(0, 0, 0, 0.04), 1.25rem 1.25rem rgba(0, 0, 0, 0.04);}
+.moretext1,.moretext2,.moretext3{display: none;}
+.fav-celeb-text a.moreless-button1,.fav-celeb-text a.moreless-button2,.fav-celeb-text a.moreless-button3 {display: inline-block;text-decoration: underline;background: linear-gradient(90deg, #3300FF 0%,#4EE8FF 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;font-weight: 600;font-size: 23px;margin: 0 0 20px;border-bottom: 2px solid #3a3dff;}
 
 
 .about-mb-token{padding: 120px 0;}
@@ -229,12 +234,15 @@ footer .footer-left li {display: inline-block;margin: 0px 65px 0 0;padding: 25px
 
 .fav-celeb-text h2{color: #DBDDFF;font-weight: 500;font-size: 60px;margin: 0 0 30px;}
 .fav-celeb-text p {max-width: 100%;font-size: 22px;color: #DBDDFF;line-height: 35px;font-weight: 400;margin: 0 0 20px;}
-.btn-celeb a.btn-boundless {margin: 25px 0 0;}
+.btn-celeb a.btn-boundless {margin: 25px 0 0;min-height: 70px;line-height: 54px; pointer-events: none;}
+.btn-celeb a.btn-boundless span {display: block;font-size: 11px;font-weight: 300;line-height: initial;margin-top: -15px;position: relative;right: -12px;letter-spacing: 2px;}
+.btn-celeb a.btn-boundless img {max-width: 13px;margin-right: 5px;}
 .fav-celeb-1{padding: 100px 0;position: relative;}
 .fav-celeb-2{padding: 100px 0;position: relative;}
 .fav-celeb-3{padding: 100px 0 150px;position: relative;}
 .fav-celeb-image video {min-height: 476px;max-width: 530px;object-fit: cover;border-radius: 40px;border: 2px solid #47adff;padding: 20px;}
 .fav-celeb-1,.fav-celeb-2,.fav-celeb-3{overflow: hidden;}
+.fav-celeb-text em {font-style: normal;}
 
 
 .fav-celeb-1:before{background: url(../images/celb-shadow-1.png) no-repeat left center;min-width: 421px;min-height: 633px;content: "";position: absolute;left: 0;top: 50px;background-size: 100%;}
