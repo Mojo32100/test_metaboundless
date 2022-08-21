@@ -102,6 +102,29 @@ a.btn-boundless:after {position: absolute;content: "";min-width: 205px;height: 6
 .watch-video-slider .owl-item.center .item h3 {margin-top: 40px;}
 .btn-meta-center-no-mg a.btn-boundless {margin: 20px 0 0;}
 
+.slider-wrapper{display: flex;}
+.module-gallery {width: 100%;}
+.module-gallery .slider-wrapper {display: flex;max-height: 456px;}
+.module-gallery .slider-thumb {min-width: 505px;margin-top: 40px;}
+.module-gallery .slider-preview {max-width: 100%;overflow: hidden;padding-left: 110px;}
+.module-gallery .slider-thumb li {max-width: 505px;}
+.module-gallery .slider-thumb .slick-prev,.module-gallery .slider-thumb .slick-next {z-index: 1;height: 1em;width: 100%;background-color: #000;opacity: 0.3;transition: opacity 300ms ease;font-size: 1.5em;color: #fff;}
+.module-gallery .slider-thumb .slick-prev:before,.module-gallery .slider-thumb .slick-next:before {content: '';}
+.module-gallery .slider-thumb .slick-prev:hover,.module-gallery .slider-thumb .slick-next:hover {opacity: 0.5;}
+.module-gallery .slider-thumb .slick-prev {left: unset;top: 0.5em;}
+.module-gallery .slider-thumb .slick-next {top: unset;right: unset;bottom: -0.5em;}
+.slick-track .slick-track { display: none; }
+.utility-text {display: flex;align-items: center;background-color: #0B0D1F;padding: 5px 15px;border-radius: 20px;margin: 5px 0;}
+.utility-text p {font-size: 22px;color: rgb(255 255 255 / 50%);font-weight: 500;line-height: 35px;margin: 0;}
+.utility-text span {font-size: 48px;font-weight: 600;color: hsl(0deg 0% 100% / 50%);margin-right: 15px;}
+li.type-image.slick-slide.slick-current.slick-active .utility-text {background-color: #DB6A31;border:1px solid transparent;}
+li.type-image.slick-slide.slick-current.slick-active .utility-text span{color: #fff;}
+li.type-image.slick-slide.slick-current.slick-active .utility-text p{color: #fff;}
+.slick-list{overflow: unset !important;}
+
+
+
+
 .nft-rewardss{padding: 120px 0;position: relative;}
 .nft-rewardss-middle{display: flex;align-items: center;justify-content: space-between;}
 .nft-rewardss-left h2 {font-size: 48px;font-weight: 500;color: #DBDDFF;margin-bottom: 20px;}
