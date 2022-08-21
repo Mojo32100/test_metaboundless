@@ -81,7 +81,7 @@ a.btn-boundless:after {position: absolute;content: "";min-width: 205px;height: 6
 .concert-future-left h2{font-size: 48px;color: #fff;max-width: 80%;font-weight: 500;margin: 0 auto;}
 .concert-future-left h2 span{font-size: 24px;color: #fff;max-width: 80%;font-weight: 200;display: block;margin: 10px auto 50px;}
 .concert-future-left{background: rgb(0 0 0 / 10%);background-size: 100%;text-align: center;backdrop-filter: blur(50px);padding: 50px;border-radius: 10px;border: 1px solid #826caf;max-width: 630px;margin: 0 auto;}
-.concert-future-left h3{font-size: 50px;color: #fff;max-width: 100%;font-weight: 400;font-family: 'Oswald', sans-serif;margin: 0 auto 45px;}
+.concert-future-left h3{font-size: 52px;color: #fff;max-width: 100%;font-weight: 400;font-family: 'Oswald', sans-serif;margin: 0 auto 45px;text-transform: uppercase;}
 .concert-future-left h3 span{font-size: 16px;color: #fff;max-width: 100%;font-weight: 500;display: block;font-family: 'Poppins', sans-serif;margin: 0 auto;text-transform: uppercase;letter-spacing: 4px;}
 .rldm-image img {max-width: 1000px;margin-left: -95px;}
 .btn-metaverse a.btn-boundless {background: #fff;color: #361dff;}
