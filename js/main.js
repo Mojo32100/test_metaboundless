@@ -210,3 +210,49 @@ $('.moreless-button3').click(function() {
     $(this).text("Read more")
   }
 });
+
+
+
+// utility slider
+$(function(){
+  $('.slider-thumb').slick({
+    autoplay: true,
+    vertical: true,
+    infinite: true,
+    verticalSwiping: true,
+    slidesPerRow: 5,
+    slidesToShow: 5,
+    asNavFor: '.slider-preview',
+    focusOnSelect: true,
+    responsive: [
+      {
+        breakpoint: 767,
+        settings: {
+          vertical: false,
+        }
+      },
+    ]
+  });
+
+
+  $('.slider-preview').slick({
+    autoplay: true,
+    vertical: true,
+    infinite: true,
+    slidesPerRow: 1,
+    slidesToShow: 1,
+    asNavFor: '.slider-thumb',
+    arrows: false,
+    draggable: false,
+    responsive: [
+      {
+        breakpoint: 767,
+        settings: {
+          vertical: false,
+          fade: true,
+        }
+      },
+    ]
+  });
+
+});
