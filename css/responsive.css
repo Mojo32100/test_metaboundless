@@ -7,6 +7,7 @@
 .boundless-banner:after {    background: linear-gradient(180deg, rgb(43 21 108 / 0%) 0%, #030614f0 29%, #030614f7 54%, #0306147a 76%, rgb(35 18 90) 100%);}
 .boundless-banner-about:after {position: absolute;content: "";max-width: 100%;height: 185px;bottom: -89px;z-index: 9999;left: 0;right: 0;background: linear-gradient(180deg, rgb(2 10 51 / 0%) 0%, rgb(3 9 21 / 99%) 29%, rgb(4 11 24) 54%, rgb(3 11 24) 76%, rgb(4 11 23) 100%);}
 .what-we-middle{margin: 0 125px;}
+.toolkits-s {background-size: 100%;background-position: bottom 245px center;}
 
 }
 
@@ -21,6 +22,7 @@
 .arrow-po-f {top: 93px;width: 40px;left: -30px;}
 .what-we-middle {margin: 0 70px;padding: 40px;}
 .creator-s-w img {max-width: 300px;}
+.toolkits-s {background-size: 115%;}
 
 
 }
@@ -75,7 +77,14 @@ footer .footer-left a.nav-link {font-size: 20px;}
 .slick-vertical .slick-slide iframe {min-width: 100%;min-height: 385px;}
 .module-gallery .slider-wrapper {max-height: 405px;}
 .module-gallery .slider-thumb{padding-left: 0;}
-
+.box-c-p p {font-size: 18px;}
+.box-c-p-t h3 {font-size: 18px;line-height: 25px;}
+.box-c-p-t {min-width: 220px;justify-content: right;}
+.box-c-p-t img {margin-right: 15px;}
+.toolkits-s-box > span {min-width: 100px;min-height: 100px;max-height: 100px;line-height: 100px;}
+.toolkits-s-box > span img {max-width: 50px;}
+.toolkits-s-box h4 {font-size: 19px;}
+.toolkits-s {background-size: 120%;}
 
 
 
@@ -197,6 +206,11 @@ li.type-image.slick-slide.slick-current.slick-active .utility-text {padding: 25p
 .slick-vertical .slick-slide iframe {max-width: 100%;min-height: auto;}
 .module-gallery .slider-wrapper {max-height: 340px;}
 .fav-celeb-text a.moreless-button1, .fav-celeb-text a.moreless-button2, .fav-celeb-text a.moreless-button3 {font-size: 17px;margin: 0 0 35px;}
+.partnering-creator-image {max-width: 320px;margin: 0 auto 15px;}
+.toolkits-s-box {margin: 25px 0;}
+.toolkits-s-title h3 {margin-bottom: 0;}
+.toolkits-s {background-size: cover;background-position: right center;background: #0000000f url(../images/creator-bg.png) no-repeat center;}
+
 
 
 }
@@ -244,6 +258,11 @@ li.type-image.slick-slide.slick-current.slick-active .utility-text {padding: 25p
 .module-gallery .slider-wrapper {flex-direction: column-reverse;}
 .slick-initialized .slick-slide{text-align: center;}
 .slick-slide iframe {border-radius: 35px;padding: 10px;border: 2px solid #4cd6ff;}
+.toolkits-s-box h4 {font-size: 18px;}
+.toolkits-s-box h4 span {font-size: 15px;}
+.toolkits-s .btn-meta {margin: 40px 0 0;}
+.toolkits-s-title h3 {font-size: 24px;}
+
 
 
 }
