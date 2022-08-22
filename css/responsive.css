@@ -369,7 +369,18 @@ a.btn-boundless.btn-mbtoken {margin: 25px 0 50px;}
 .gallery-images-g a{padding: 5px;}
 .gallery-banner {padding: 170px 0 60px;}
 .gallery-images-g a {-ms-flex: 0 0 50%;flex: 0 0 50%;max-width: 50%;}
-
+.box-c-p {flex-direction: column;}
+.box-c-p-t {min-width: 70%;justify-content: center;min-height: 60px;border-radius: 10px;}
+.box-c-p p {text-align: center;padding: 10px 0 0;font-size: 16px;line-height: 28px;}
+.box-c-p-t h3 {font-size: 16px;line-height: 22px;}
+.box-c-p-t img {max-width: 25px;}
+.toolkits-s-box > span {min-width: 80px;min-height: 80px;max-height: 80px;line-height: 80px;border-radius: 20px;}
+.toolkits-s-box > span img {max-width: 33px;}
+.toolkits-s-box h4 {margin: 15px 0 0;font-size: 16px;}
+.toolkits-s-box {margin: 20px 0;}
+.partnering-creator-image {max-width: 250px;}
+.toolkits-s {padding: 60px 0 80px;}
+.toolkits-s a.btn-boundless {min-width: 250px;letter-spacing: 2px;}
 
 
 }
