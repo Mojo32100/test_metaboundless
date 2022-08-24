@@ -270,7 +270,7 @@ li.type-image.slick-slide.slick-current.slick-active .utility-text {padding: 25p
 .concert-banner-text p {font-size: 22px;line-height: 35px;margin-bottom: 30px;}
 .claim-nft-banner-text h1 {font-size: 60px;}
 .claim-nft-banner-text p {font-size: 22px;line-height: 35px;margin-bottom: 30px;max-width: 100%;}
-.claim-nft-banner-solider {transform: scale(1) !important;margin: 10px 0;min-width: 30%;padding: 0 10px;min-height: 100%;}
+.claim-nft-banner-solider {transform: scale(1) !important;margin: 10px 0;min-width: 36%;padding: 0 10px;min-height: 100%;}
 .flip {min-width: 320px;}
 .flip > .front, .flip > .back {min-height: 430px;border-radius: 20px;}
 .nft-rewardss {padding: 0;}
