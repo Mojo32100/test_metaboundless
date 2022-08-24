@@ -106,7 +106,7 @@ footer .footer-left a.nav-link {font-size: 20px;}
 footer .foot-menu a.nav-link {font-size: 18px;}
 .footer-bottom ul li.list-inline-item {margin: 0 2px !important;}
 .sec-vid a {max-width: 48%;}
-
+.flip-container, .flip-container .front, .flip-container .back{min-height: 330px;}
 
 
 }
@@ -244,6 +244,10 @@ li.type-image.slick-slide.slick-current.slick-active .utility-text {padding: 25p
 .what-we-middle ul .ppcr span{font-size: 15px;}
 .what-we-middle ul{margin: 25px 0 0;}
 
+.flip-container, .flip-container .front, .flip-container .back{min-height: 260px;}
+
+
+
 }
 
 @media(max-width: 767px){
@@ -264,10 +268,9 @@ li.type-image.slick-slide.slick-current.slick-active .utility-text {padding: 25p
 .concert-banner-solider {text-align: center;margin: 20px 0;}
 .mt-minus-sold {margin-top: 0;}
 .concert-banner-text p {font-size: 22px;line-height: 35px;margin-bottom: 30px;}
-.claim-nft-banner-solider-main {flex-direction: column;}
 .claim-nft-banner-text h1 {font-size: 60px;}
 .claim-nft-banner-text p {font-size: 22px;line-height: 35px;margin-bottom: 30px;max-width: 100%;}
-.claim-nft-banner-solider {transform: scale(1) !important;margin: 10px 0;}
+.claim-nft-banner-solider {transform: scale(1) !important;margin: 10px 0;min-width: 30%;padding: 0 10px;min-height: 100%;}
 .flip {min-width: 320px;}
 .flip > .front, .flip > .back {min-height: 430px;border-radius: 20px;}
 .nft-rewardss {padding: 0;}
@@ -306,6 +309,8 @@ footer p {order: 3;}
 .footer-bottom ul li.list-inline-item {margin: 0 5px !important;}
 .btn-index-slider.btn-meta.btn-meta-center-no-mg {justify-content: center;}
 .sec-vid {margin: 30px 0 0;}
+.claim-nft-banner-solider h2 {font-size: 14px;}
+.flip-container, .flip-container .front, .flip-container .back {min-height: 210px;border-radius: 20px;}
 
 
 }
@@ -448,7 +453,9 @@ footer .foot-menu .list-inline li {padding: 0;}
 .foot-menu ul {margin: 30px 0;}
 footer .foot-menu a.nav-link {font-size: 16px;}
 .sec-vid {margin: 5px 0 0;}
-
+.claim-nft-banner-solider-main {flex-direction: column;}
+.claim-nft-banner-solider {width: 300px;}
+.flip-container, .flip-container .front, .flip-container .back {min-height: 320px;}
 
 
 }
