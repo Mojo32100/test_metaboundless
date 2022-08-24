@@ -294,7 +294,7 @@ li.type-image.slick-slide.slick-current.slick-active .utility-text {padding: 25p
 .tab-gallery-up .nav-link.active {padding: 10px 15px;font-size: 18px;}
 .tab-gallery-up .nav-link {padding: 10px 15px;font-size: 14px;}
 .gallery-images-g a {padding: 5px;}
-.concert-banner-text span,.concert-banner-text h1 {font-size: 36px;}.toolkits-s-box > span img {   max-width: 60px;}
+.concert-banner-text span,.concert-banner-text h1 {font-size: 44px;max-width: 80%;margin: 110px auto 15px;}.toolkits-s-box > span img {   max-width: 60px;}
 .slick-slide video {border-radius: 25px !important;min-width: 530px;min-height: 330px;padding: 10px;border: 2px solid #4cd6ff;object-fit: cover;}
 footer .foot-menu .list-inline li {margin: 0 !important;padding: 20px 15px;}
 .footer-bottom {flex-direction: column;justify-content: center;}
@@ -383,7 +383,7 @@ a.btn-boundless.btn-mbtoken {margin: 25px 0 50px;}
 .partnering-main-box .partnering-box:first-child {margin-top: 0;}
 .boundless-banner.boundless-banner-about img {margin-top: -41px;}
 .creator-s-w{max-width: 100%;}
-.concert-banner-text span {font-size: 16px;}
+.concert-banner-text span { font-size: 28px; }
 .concert-banner-text h1 {font-size: 28px;margin: 0 0 15px;}
 .concert-banner-text p {font-size: 16px;line-height: 28px;max-width: 100%;}
 .concert-banner-solider h2 {font-size: 22px;}
