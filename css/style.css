@@ -219,8 +219,8 @@ li.type-image.slick-slide.slick-current.slick-active .utility-text p{color: #fff
 /*ticket*/
 .concert-banner{padding: 100px 10px;background: url(../images/concert-ticket-bg.png) no-repeat center;background-size: cover;}
 .concert-banner-text h1{color: #fff;font-weight: 800;font-size: 60px;margin: 110px 0 25px;text-transform: uppercase;letter-spacing: 5px;}
-.concert-banner-text span {font-weight: 400;display: block;font-size: 60px;margin: 0 0 10px;}
-.concert-banner-text p {max-width: 60%;font-size: 26px;color: #BDC4FF;line-height: 40px;font-weight: 300;margin: 0 auto 75px;}
+.concert-banner-text span {/* font-weight: 400; *//* display: block; *//* font-size: 60px; *//* margin: 0 0 10px; */}
+.concert-banner-text p {max-width: 85%;font-size: 26px;color: #BDC4FF;line-height: 40px;font-weight: 300;margin: 0 auto 75px;}
 .mt-minus-sold{margin-top: -75px;}
 .concert-banner-solider h2 {font-size: 36px;color: #fff;text-align: center;font-weight: 500;margin: 30px 0 0;}
 
