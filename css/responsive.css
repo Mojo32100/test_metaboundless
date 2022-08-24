@@ -316,13 +316,14 @@ footer p {order: 3;}
 .concert-future {padding: 60px 0;background-position: top -105px center;}
 .rldm-image img {max-width: 400px;margin-left: -30px;}
 .concert-future-left h2 {font-size: 27px;}
-.concert-future-left h2 span {font-size: 17px;margin-bottom: 30px;}
+.concert-future-left h2 span {font-size: 17px !important;margin-bottom: 30px;}
+.concert-future-left h2 span:last-child {margin-bottom: 30px;}
 .concert-future-left h3 span {font-size: 14px;letter-spacing: 2px;line-height: 20px;margin-bottom: 7px;}
 .concert-future-left h3 {font-size: 26px;margin-bottom: 15px;}
 .concert-future-left {padding: 20px;}
 .btn-metaverse a.btn-boundless {font-size: 16px;letter-spacing: 3px;min-width: 160px;min-height: 40px;margin-right: 0;height: 60px;line-height: 60px;margin: 15px 0;}
 .btn-metaverse a.btn-boundless:after {min-width: 160px;min-height: 40px;}
-.btn-meta.btn-metaverse {display: flex;flex-direction: column;align-items: center;}
+.btn-meta.btn-metaverse {display: flex;flex-direction: row;align-items: center; justify-content: space-evenly;}
 .title-all p {font-size: 16px;margin: 0;line-height: 28px;}
 .watch-video {background-position: center;background-size: cover;}
 header {position: absolute;}
@@ -449,4 +450,31 @@ footer .foot-menu a.nav-link {font-size: 16px;}
 
 }
 
+@media(max-width: 456px){
 
+.btn-meta.btn-metaverse {display: flex;flex-direction: row;align-items: center; justify-content: space-evenly;}
+.btn-metaverse a.btn-boundless {
+    font-size: 14px;
+    letter-spacing: 2px;
+    min-width: 137px;
+    margin: 15px 15px !important;
+    max-height: 60px;
+}
+
+.btn-metaverse a.btn-boundless::after {
+    min-width: 100%;
+
+}
+
+
+}
+
+@media(max-width: 375px) {
+    .btn-metaverse a.btn-boundless {
+        font-size: 11px;
+        letter-spacing: 2px;
+        min-width: 97px;
+        margin: 10px 10px !important;
+        max-height: 60px;
+    }
+}
