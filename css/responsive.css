@@ -105,6 +105,8 @@ footer .footer-left a.nav-link {font-size: 20px;}
 .footer-bottom span {font-size: 15px;}
 footer .foot-menu a.nav-link {font-size: 18px;}
 .footer-bottom ul li.list-inline-item {margin: 0 2px !important;}
+.sec-vid a {max-width: 48%;}
+
 
 
 }
@@ -303,6 +305,7 @@ footer p {order: 3;}
 .footer-bottom ul {margin: 20px 0;}
 .footer-bottom ul li.list-inline-item {margin: 0 5px !important;}
 .btn-index-slider.btn-meta.btn-meta-center-no-mg {justify-content: center;}
+.sec-vid {margin: 30px 0 0;}
 
 
 }
@@ -412,7 +415,7 @@ a.btn-boundless.btn-mbtoken {margin: 25px 0 50px;}
 .title-all.title-concert-future p{max-width: 100%;}
 .gallery-images-g a{padding: 5px;}
 .gallery-banner {padding: 170px 0 60px;}
-.gallery-images-g a {-ms-flex: 0 0 50%;flex: 0 0 50%;max-width: 50%;}
+.gallery-images-g a {-ms-flex: 0 0 50%;flex: 0 0 100%;max-width: 100%;margin: 15px 0 0;}
 .box-c-p {flex-direction: column;}
 .box-c-p-t {min-width: 205px;justify-content: center;min-height: 43px;border-radius: 10px;align-items: center;padding: 0;}
 .box-c-p p {text-align: center;padding: 10px 0 0;font-size: 16px;line-height: 28px;}
@@ -444,7 +447,7 @@ footer .foot-menu .list-inline li {display: block;}
 footer .foot-menu .list-inline li {padding: 0;}
 .foot-menu ul {margin: 30px 0;}
 footer .foot-menu a.nav-link {font-size: 16px;}
-
+.sec-vid {margin: 5px 0 0;}
 
 
 
