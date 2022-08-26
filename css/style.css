@@ -125,6 +125,14 @@ li.type-image.slick-slide.slick-current.slick-active .utility-text span{color: #
 li.type-image.slick-slide.slick-current.slick-active .utility-text p{color: #fff;font-weight: 700;font-size: 25px;}
 .slick-list{overflow: unset !important;}
 
+.slider-img-celebs img {    min-width: 594px;
+  min-height: 444px;
+  max-width: 540px;
+  border-radius: 35px;
+  padding: 10px;
+  border: 2px solid #4cd6ff;
+  object-fit: cover; }
+
 
 
 

@@ -107,7 +107,11 @@ footer .foot-menu a.nav-link {font-size: 18px;}
 .footer-bottom ul li.list-inline-item {margin: 0 2px !important;}
 .sec-vid a {max-width: 48%;}
 .flip-container, .flip-container .front, .flip-container .back{min-height: 330px;}
-
+.slider-img-celebs img{
+    min-width: 100%;
+    min-height: 385px;
+    max-width: 100%;
+}
 
 }
 
