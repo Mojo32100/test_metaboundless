@@ -29,12 +29,15 @@
 .partnering-box h2 {font-size: 30px;}
 .partnering-box:hover h2{font-size: 36px;}
 .partnering-box:hover .pop-up-box video{left: 0;}
-.partnering-box:hover .pop-up-box .box-social{right: 110px;}
+.box-social{right: 9%;}
+.partnering-box:hover .pop-up-box .box-social{right: 0;z-index: 5555555;}
 .partnering-box:hover .pop-up-box > img {opacity: 1;width: 352px;padding: 15px;left: 0;height: 456px;}
 .partnering-box:hover .pop-up-box .wbl{left: 0;}
 .what-we-middle ul .ppcr span{font-size: 18px;}
 .partnering-creator-image {margin-left: -90px;position: relative;right: -49px;}
-
+.partnering-box:hover .pop-up-box .box-social.box-social-last {right: 343px;}
+.concert-banner{background-size: 130%;}
+.gallery-banner{background-size: 180%;}
 
 }
 
@@ -85,8 +88,8 @@ footer .footer-left a.nav-link {font-size: 20px;}
 .fav-celeb-text h2 {font-size: 44px;}
 .watch-video {background-size: cover;background-position: center;}
 .module-gallery .slider-preview {padding-left: 20px;}
-.slick-vertical .slick-slide video {min-width: 100%;min-height: 385px;}
-.module-gallery .slider-wrapper {max-height: 405px;}
+.slick-vertical .slick-slide video {min-width: 100%;min-height: 390px;}
+.module-gallery .slider-wrapper {max-height: 431px;}
 .module-gallery .slider-thumb{padding-left: 0;}
 .box-c-p p {font-size: 18px;}
 .box-c-p-t h3 {font-size: 18px;line-height: 25px;}
@@ -96,7 +99,8 @@ footer .footer-left a.nav-link {font-size: 20px;}
 .toolkits-s-box > span img {max-width: 50px;}
 .toolkits-s-box h4 {font-size: 19px;}
 .toolkits-s {background-size: 120%;}
-.partnering-box:hover .pop-up-box .box-social {right: 26px;}
+.box-social{right: 6%;}
+.partnering-box:hover .pop-up-box .box-social {right: 0;}
 .partnering-box:hover .pop-up-box > img {width: 278px;height: auto;left: -14px;}
 .partnering-box:hover .pop-up-box .wbl{width: 250px;height: 250px;min-height: 310px;}
 .footer-bottom span a {display: block;}
@@ -107,11 +111,22 @@ footer .foot-menu a.nav-link {font-size: 18px;}
 .footer-bottom ul li.list-inline-item {margin: 0 2px !important;}
 .sec-vid a {max-width: 48%;}
 .flip-container, .flip-container .front, .flip-container .back{min-height: 330px;}
-.slider-img-celebs img{
-    min-width: 100%;
-    min-height: 385px;
-    max-width: 100%;
-}
+.slider-img-celebs img{min-width: 100%;min-height: 390px;max-width: 100%;}
+.module-gallery .slider-wrapper li {padding: 10px 0;}
+.utility-text {margin: 0;}
+.partnering-box:hover .pop-up-box .box-social.box-social-last {right: 253px;}
+.partnering-box:hover .pop-up-box .box-social,.partnering-box .pop-up-box .box-social{max-width: 250px;}
+.box-social li.list-inline-item a{min-width: 216px;}
+.box-social li.list-inline-item a {font-size: 16px;height: initial;max-height: 50px;}
+.box-social li.list-inline-item a img {max-width: 23px;}
+.box-social li.list-inline-item a:after,.box-social li.list-inline-item a:hover:after {width: 15px;height: 15px;background-size: 100%;}
+.neon-charachter-in.neon-charachter-in-1 {max-width: 290px;}
+.neon-charachter-in.neon-charachter-in-2 {max-width: 320px;}
+.neon-charachter-in.neon-charachter-in-3 {max-width: 310px;}
+.claim-nft-banner:before {background: url(../images/reward-bg-back.png) no-repeat top -84px center;min-height: 500px;}
+.concert-banner:before {background: url(../images/reward-bg-back.png) no-repeat top -84px center;min-height: 500px;}
+.concert-banner-text h1,.claim-nft-banner-text h1{font-size: 56px;}
+
 
 }
 
@@ -172,7 +187,7 @@ a.btn-boundless:after {min-width: 190px;}
 .comming-soon-text h2 {font-size: 44px;}
 .comming-soon-text {padding: 50px 25px 0 55px;}
 .comming-soon:before {display: none;}
-.comming-soon-text p {font-size: 22px;}
+.comming-soon-text p {font-size: 22px;margin: 0 auto;}
 .comming-soon {padding: 100px 0 30px;}
 .follow-us-text h2 {font-size: 40px;}
 .about-mb-token-image {max-width: 290px;}
@@ -197,9 +212,9 @@ footer {padding: 100px 0 0;}
 .creator-s-w img {max-width: 100%;}
 .creator-f-w img.arrow-po-f {order: inherit;position: initial;}
 .partnering-box .pop-up-box {opacity: 1;position: unset;width: auto;transform: unset;display: flex;align-items: center;justify-content: space-around;flex-direction: column;}
-.partnering-box .pop-up-box video,.partnering-box:hover .pop-up-box video {position: unset;opacity: 1;width: auto;transform: unset;max-width: 250px;min-height: auto;height: 280px;}
+.partnering-box .pop-up-box video,.partnering-box:hover .pop-up-box video {position: unset;opacity: 1;width: auto;transform: unset;max-width: 250px;min-height: auto;height: 295px;}
 .partnering-box:hover .pop-up-box .wbl,.partnering-box .pop-up-box .wbl{position: unset;opacity: 1;width: auto;transform: unset;min-width: 250px;min-height: auto;height: 280px;object-fit: cover;}
-.partnering-box .pop-up-box .box-social {position: unset;opacity: 1;width: auto;max-width: 250px;min-height: 250px;transform: unset;margin: 0;height: 280px;}
+.partnering-box .pop-up-box .box-social {position: unset;opacity: 1;width: auto;max-width: 250px;min-height: 250px;transform: unset;margin: 0;height: 295px;}
 .partnering-box h2 {min-width: 100%;margin-bottom: 25px;}
 .partnering-box {max-width: 100%;margin: 45px auto;}
 .partnering-main-box{margin: 0;}
@@ -229,8 +244,8 @@ footer .footer-left li{padding: 5px 0;}
 li.type-image.slick-slide.slick-current.slick-active .utility-text p {font-size: 18px;}
 li.type-image.slick-slide.slick-current.slick-active .utility-text {padding: 25px 20px;}
 .utility-text {padding: 20px;border-radius: 10px;}
-.slick-vertical .slick-slide video {max-width: 100%;min-height: auto;}
-.module-gallery .slider-wrapper {max-height: 340px;}
+.slick-vertical .slick-slide video {max-width: 100%;min-height: 100%;max-height: 250px;}
+.module-gallery .slider-wrapper {max-height: 300px;}
 .fav-celeb-text a.moreless-button1, .fav-celeb-text a.moreless-button2, .fav-celeb-text a.moreless-button3 {font-size: 17px;margin: 0 0 35px;}
 .partnering-creator-image {max-width: 500px;margin: 0 auto 15px;right: 0;}
 .toolkits-s-box {margin: 25px 0;}
@@ -247,9 +262,25 @@ li.type-image.slick-slide.slick-current.slick-active .utility-text {padding: 25p
 .tab-gallery-up {margin: 25px 0 25px !important;}
 .what-we-middle ul .ppcr span{font-size: 15px;}
 .what-we-middle ul{margin: 25px 0 0;}
-
 .flip-container, .flip-container .front, .flip-container .back{min-height: 260px;}
 .header-reward{background: transparent;}
+.slider-img-celebs img {max-width: 100%;min-height: 100%;max-height: 250px;}
+.module-gallery .slider-wrapper .slider-thumb li {padding: 5px 0;}
+.partner-home-title span img {max-width: 190px;margin-top: -26px;}
+.title-all.title-center.partner-home-title h3 {font-size: 22px;margin: 50px 0 40px;}
+.partner-home {padding: 120px 0 0;}
+.partnering-box .pop-up-box .box-social.box-social-last{display: none;}
+.gallery-images-g a .btn-videos {width: 50px;height: auto;}
+.box-social h4 {font-size: 38px;}
+.box-social li.list-inline-item a {padding: 10px;font-size: 15px;}
+.neon-charachter-in.neon-charachter-in-1 {max-width: 200px;left: -30px;}
+.neon-charachter-in.neon-charachter-in-2 {max-width: 240px;}
+.neon-charachter-in.neon-charachter-in-3 {max-width: 220px;right: -30px;}
+.claim-nft-banner:before {min-height: 100%;background-size: 100%;background-position: top 695px center;}
+.concert-banner:before {min-height: 100%;background-size: 100%;background-position: top 695px center;}
+.gallery-banner{background-size: 180%;}
+
+
 
 
 }
@@ -302,9 +333,8 @@ li.type-image.slick-slide.slick-current.slick-active .utility-text {padding: 25p
 .toolkits-s-title h3 {font-size: 24px;}
 .tab-gallery-up .nav-link.active {padding: 10px 15px;font-size: 18px;}
 .tab-gallery-up .nav-link {padding: 10px 15px;font-size: 14px;}
-.gallery-images-g a {padding: 5px;}
 .concert-banner-text span,.concert-banner-text h1 {font-size: 44px;max-width: 80%;margin: 110px auto 15px;}.toolkits-s-box > span img {   max-width: 60px;}
-.slick-slide video {border-radius: 25px !important;min-width: 530px;min-height: 330px;padding: 10px;border: 2px solid #4cd6ff;object-fit: cover;}
+.slick-slide video,.slider-img-celebs img {border-radius: 25px !important;min-width: 530px;min-height: 330px;padding: 10px;border: 2px solid #4cd6ff;object-fit: cover;}
 footer .foot-menu .list-inline li {margin: 0 !important;padding: 20px 15px;}
 .footer-bottom {flex-direction: column;justify-content: center;}
 .footer-bottom span a {display: inline-block;}
@@ -315,6 +345,19 @@ footer p {order: 3;}
 .sec-vid {margin: 30px 0 0;}
 .claim-nft-banner-solider h2 {font-size: 14px;}
 .flip-container, .flip-container .front, .flip-container .back {min-height: 210px;border-radius: 20px;}
+.partner-home-title span img {max-width: 150px;margin-top: -18px;}
+.title-all.title-center.partner-home-title span:before {width: 100px;left: -130px;}
+.title-all.title-center.partner-home-title span:after {width: 100px;right: -130px;}
+.partner-home {padding: 100px 0 0;}
+.title-all.title-center.partner-home-title h3 {font-size: 18px;margin: 30px 0 20px;}
+.partner-inner-logo a {padding: 0 10px;}
+.gallery-images-g a .btn-videos {width: 35px;height: 35px;}
+.claim-nft-banner:before {background-position: top 655px center;bottom: 0;}
+.concert-banner:before {background-position: top 655px center;bottom: 0;}
+.gallery-banner{background-size: 300%;}
+.grid-gallery{grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));}
+.concert-banner{background-size: 260%;}
+
 
 
 }
@@ -333,9 +376,9 @@ footer p {order: 3;}
 .concert-future-left h3 span {font-size: 14px;letter-spacing: 2px;line-height: 20px;margin-bottom: 7px;}
 .concert-future-left h3 {font-size: 26px;margin-bottom: 15px;}
 .concert-future-left {padding: 20px;}
-.btn-metaverse a.btn-boundless {font-size: 16px;letter-spacing: 3px;min-width: 160px;min-height: 40px;margin-right: 0;height: 60px;line-height: 60px;margin: 15px 0;}
-.btn-metaverse a.btn-boundless:after {min-width: 160px;min-height: 40px;}
-.btn-meta.btn-metaverse {display: flex;flex-direction: row;align-items: center; justify-content: space-evenly;}
+.btn-metaverse a.btn-boundless {font-size: 14px;letter-spacing: 3px;min-width: 140px;min-height: 58px;margin-right: 0;height: 55px;line-height: 60px;margin: 15px 10px;}
+.btn-metaverse a.btn-boundless:after {min-width: 100%;min-height: 100%;left: 6px;bottom: -8px;}
+.btn-meta.btn-metaverse {display: flex;align-items: center;justify-content: center;}
 .title-all p {font-size: 16px;margin: 0;line-height: 28px;}
 .watch-video {background-position: center;background-size: cover;}
 header {position: absolute;}
@@ -376,9 +419,9 @@ a.btn-boundless.btn-mbtoken {margin: 25px 0 50px;}
 .what-we-do {padding: 60px 0;}
 .what-we-do p {max-width: 100%;}
 .what-we-do h3 {font-size: 16px;}
-.creator-s-w img {max-width: 340px;}
+.creator-s-w img {max-width: 290px;}
 .what-we-middle {min-width: 340px;}
-.creator-s-w img {right: 40px;}
+.creator-s-w img {right: 0;}
 .partnering-box .pop-up-box {/* flex-direction: column; */}
 .partnering-box .pop-up-box video, .partnering-box:hover .pop-up-box video {max-width: 45%;min-width: 45%;height: 230px;border-radius: 15px;}
 .partnering-box:hover .pop-up-box > img, .partnering-box .pop-up-box > img{max-width: 45%;min-width: 45%;height: 230px;min-height: 100%;border-radius: 15px;padding: 0;object-fit: contain;}
@@ -388,7 +431,7 @@ a.btn-boundless.btn-mbtoken {margin: 25px 0 50px;}
 .partnering-box h2 {font-size: 20px;}
 .box-social h4 {font-size: 28px;}
 .box-social p {font-size: 13px;}
-.box-social li.list-inline-item,.box-social li.list-inline-item img {width: 32px;display: flex;margin: 0 5px;justify-content: center;}
+.box-social li.list-inline-item,.box-social li.list-inline-item img {width: 32px;display: flex;margin: 5px 10px;justify-content: center;}
 .partnering-box:hover h2,.partnering-box h2 {font-size: 18px;padding: 25px 35px;text-align: center;}
 .partnering-box h2 {background: linear-gradient(90deg, #00E3FF 0%,#1F50FF 25%,#1D20FF 50%,#1C5DFF 75%,#00E3FF 100%);color: #fff;margin: 0 0 12px;}
 .partnering {padding: 0 0 30px;}
@@ -396,12 +439,13 @@ a.btn-boundless.btn-mbtoken {margin: 25px 0 50px;}
 .boundless-banner.boundless-banner-about img {margin-top: -41px;}
 .creator-s-w{max-width: 100%;}
 .concert-banner-text span { font-size: 28px; }
-.concert-banner-text h1 {font-size: 28px;margin: 0 auto 15px;}
+.concert-banner-text h1 {font-size: 28px;margin: 0 auto 15px;max-width: 100%;}
 .concert-banner-text p {font-size: 16px;line-height: 28px;max-width: 100%;}
 .concert-banner-solider h2 {font-size: 22px;}
 .buynow-text {font-size: 16px;line-height: 25px;}
 .concert-banner {padding: 170px 0 10px;}
-.claim-nft-banner:before{min-height: auto;}
+.claim-nft-banner:before{min-height: 100%;background-size: cover;background-position: center;opacity: 0.1;}
+.concert-banner:before{min-height: 100%;background-size: cover;background-position: center;opacity: 0.1;}
 .claim-nft-banner-text h1 {font-size: 28px;margin-top: 80px;}
 .claim-nft-banner-text p {font-size: 16px;line-height: 28px;}
 .flip > .front, .flip > .back {min-height: 400px;}
@@ -416,7 +460,7 @@ a.btn-boundless.btn-mbtoken {margin: 25px 0 50px;}
 .fav-celeb-3 {padding: 0 0 60px;}
 .what-we-middle ul li {font-size: 16px;}
 .sliding-text li {font-size: 15px;}
-.box-social ul {display: flex;justify-content: center;}
+.box-social ul {display: flex;justify-content: center;flex-direction: initial;align-items: center;flex-wrap: wrap;}
 .partnering-box {margin: 30px auto;}
 .slider-video iframe {width: 100% !important;height: 300px !important;}
 .module-gallery .slider-thumb .slick-track{width: 100% !important;}
@@ -447,7 +491,7 @@ a.btn-boundless.btn-mbtoken {margin: 25px 0 50px;}
 .financ-journey {padding: 0 0 30px;}
 .title-all.title-center.financ-journey-title p {margin: 0 0 20px;}
 .financ-journey a.btn-boundless {min-width: 280px;letter-spacing: 2px;}
-.slick-slide video {min-width: 100%;min-height: 100%;max-width: 100%;max-height: 250px;}
+.slick-slide video,.slider-img-celebs img {min-width: 100%;min-height: 100%;max-width: 100%;max-height: 250px;}
 .btn-index-slider.btn-meta.btn-meta-center-no-mg a.btn-boundless {font-size: 14px;letter-spacing: 2px;min-width: 137px;margin: 0 15px !important;max-height: 60px;}
 .btn-index-slider.btn-meta.btn-meta-center-no-mg {justify-content: center;}
 .btn-index-slider.btn-meta.btn-meta-center-no-mg a.btn-boundless:after{min-width: 100%;}
@@ -460,35 +504,32 @@ footer .foot-menu a.nav-link {font-size: 16px;}
 .claim-nft-banner-solider-main {flex-direction: column;}
 .claim-nft-banner-solider {width: 300px;}
 .flip-container, .flip-container .front, .flip-container .back {min-height: 320px;}
-
+.module-gallery .slider-wrapper .slider-thumb li{padding: 0;}
+.module-gallery .slider-preview {margin-bottom: 0;}
+.module-gallery{padding: 0 0 35px;}
+.partner-inner-logo {flex-direction: column;}
+.partner-inner-logo a {padding: 8px 0;max-width: 320px;margin: 0 auto;}
+.partner-home-title span img {max-width: 120px;margin-top: -12px;}
+.title-all.title-center.partner-home-title span:after {width: 72px;right: -91px;}
+.title-all.title-center.partner-home-title span:before {width: 72px;left: -91px;}
+.title-all.title-center.partner-home-title h3 {font-size: 16px;margin: 30px 0 10px;}
+.box-social li.list-inline-item a {text-indent: -9999px;min-width: fit-content;max-width: 100%;width: 100%;}
+.box-social li.list-inline-item, .box-social li.list-inline-item img {min-width: 22px;min-height: inherit;}
+.box-social li.list-inline-item a:after, .box-social li.list-inline-item a:hover:after {display: none;}
+.box-social li.list-inline-item a img {margin: 0;width: 17px;min-height: auto;}
+.partnering-box:hover .pop-up-box .box-social, .partnering-box .pop-up-box .box-social{max-width: 45%;min-width: 45%;}
+.neon-charachter {flex-direction: column;justify-content: center;align-items: center;}
+.neon-charachter-in.neon-charachter-in-1 {left: 0;max-width: 280px;top: 0;margin: 0;order: 1;}
+.neon-charachter-in.neon-charachter-in-2 {max-width: 300px;order: 0;}
+.neon-charachter-in.neon-charachter-in-3 {max-width: 270px;right: 0;order: 2;margin: 0;}
+.neon-charachter-in.neon-charachter-in {margin: 25px 0;}
+.grid-gallery {display: flex;flex-direction: column;}
+.grid-gallery > div{padding: 0;}
 
 }
 
 @media(max-width: 456px){
-
-.btn-meta.btn-metaverse {display: flex;flex-direction: row;align-items: center; justify-content: space-evenly;}
-.btn-metaverse a.btn-boundless {
-    font-size: 14px;
-    letter-spacing: 2px;
-    min-width: 137px;
-    margin: 15px 15px !important;
-    max-height: 60px;
-}
-
-.btn-metaverse a.btn-boundless::after {
-    min-width: 100%;
-
-}
+.btn-meta.btn-metaverse {display: flex;flex-direction: row;align-items: center;justify-content: space-evenly;}
 
 
-}
-
-@media(max-width: 375px) {
-    .btn-metaverse a.btn-boundless {
-        font-size: 11px;
-        letter-spacing: 2px;
-        min-width: 97px;
-        margin: 10px 10px !important;
-        max-height: 60px;
-    }
 }
