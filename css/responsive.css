@@ -279,7 +279,7 @@ li.type-image.slick-slide.slick-current.slick-active .utility-text {padding: 25p
 .claim-nft-banner:before {min-height: 100%;background-size: 100%;background-position: top 695px center;}
 .concert-banner:before {min-height: 100%;background-size: 100%;background-position: top 695px center;}
 .gallery-banner{background-size: 180%;}
-
+.partnering-box:hover h2{padding: 45px 45px;}
 
 
 
@@ -433,7 +433,7 @@ a.btn-boundless.btn-mbtoken {margin: 25px 0 50px;}
 .box-social p {font-size: 13px;}
 .box-social li.list-inline-item,.box-social li.list-inline-item img {width: 32px;display: flex;margin: 5px 10px;justify-content: center;}
 .partnering-box:hover h2,.partnering-box h2 {font-size: 18px;padding: 25px 35px;text-align: center;}
-.partnering-box h2 {background: linear-gradient(90deg, #00E3FF 0%,#1F50FF 25%,#1D20FF 50%,#1C5DFF 75%,#00E3FF 100%);color: #fff;margin: 0 0 12px;}
+.partnering-box h2 {background: linear-gradient(90deg, #00E3FF 0%,#1F50FF 25%,#1D20FF 50%,#1C5DFF 75%,#00E3FF 100%);color: #fff;margin: 0 0 12px;border-radius: 10px;}
 .partnering {padding: 0 0 30px;}
 .partnering-main-box .partnering-box:first-child {margin-top: 0;}
 .boundless-banner.boundless-banner-about img {margin-top: -41px;}
