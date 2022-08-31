@@ -335,7 +335,7 @@ li.type-image.slick-slide.slick-current.slick-active .utility-text p{color: #fff
 
 
 .partnering-box h2 {font-size: 40px;text-transform: uppercase;color: rgb(255 255 255 / 50%);font-weight: 400;display: inline-block;background: linear-gradient(270deg, #163c4f 0%, #101560 50%, #1b3e50 100%);padding: 38px 65px;position: relative;border-radius: 16px;overflow: hidden;transition: padding 0.3s, width 0.3s, height 0.3s ease;border: 1px solid #1f4e6c;}
-.partnering-box:hover h2 {padding: 55px 45px;background: linear-gradient(90deg, #00E3FF 0%,#1F50FF 25%,#1D20FF 50%,#1C5DFF 75%,#00E3FF 100%);font-size: 54px;color: #fff;transition: padding 0.3s, width 0.3s, height 0.3s ease;}
+.partnering-box:hover h2 {padding: 85px 45px;background: linear-gradient(90deg, #00E3FF 0%,#1F50FF 25%,#1D20FF 50%,#1C5DFF 75%,#00E3FF 100%);font-size: 54px;color: #fff;transition: padding 0.3s, width 0.3s, height 0.3s ease;}
 .partnering-box {text-align: center;position: relative;margin: 0;/* z-index: -1; */}
 .partnering-main-box {margin: 100px 0;}
 .pop-up-box video{min-height: 342px;max-width: 452px;object-fit: cover;border-radius: 20px;border: 2px solid #08bdff;padding: 15px;overflow: hidden;position: absolute;left: 0;top: 50%;transform: translateY(-50%);}
@@ -345,15 +345,15 @@ li.type-image.slick-slide.slick-current.slick-active .utility-text p{color: #fff
 .box-social {font-size: 48px;text-transform: uppercase;color: rgb(255 255 255 / 50%);font-weight: 400;display: inline-block;background: transparent;position: absolute;border-radius: 20px;border: 2px solid #08bdff;padding: 15px;top: 50%;transform: translateY(-50%);right: 30%;max-width: 305px;opacity: 0;transition: 0.3s ease-in;z-index: -1;}
 .box-social:after {position: absolute;top: -3px;bottom: -4px;left: -3px;right: 0;background: linear-gradient(270deg, #1B4E55 0%, #B6A3FF 50%, #1E555D 100%);z-index: -1;border-radius: 20px;width: 101%;height: 104%;}
 .box-social p {font-size: 20px;color: #fff;font-weight: 300;text-transform: uppercase;margin: 0;}
-.box-social h4 {color: #fff;font-size: 50px;font-weight: 600;}
+.box-social h4 {color: #fff;font-size: 32px;font-weight: 600;}
 .box-social h3 {border-radius: 22px;border: 2px solid rgb(255 255 255 / 20%);font-size: 16px;color: #fff;text-transform: initial;font-weight: 300;padding: 10px;letter-spacing: 2px;}
 .box-social ul {display: flex;flex-direction: column;margin-bottom: 0;}
 .box-social li.list-inline-item {margin: 5px 0;}
-.box-social li.list-inline-item a {display: flex;align-items: center;font-size: 20px;color: rgb(219 221 255 / 70%);text-transform: none;background-color: rgb(219 221 255 / 10%);padding: 15px;min-width: 273px;position: relative;border-radius: 10px;}
-.box-social li.list-inline-item a:after {position: absolute;content: "";width: 26px;height: 26px;background: url(../images/arrow-socc.png) no-repeat center;right: 15px;}
+.box-social li.list-inline-item a {display: flex;align-items: center;font-size: 18px;color: rgb(219 221 255 / 70%);text-transform: none;background-color: rgb(219 221 255 / 10%);padding: 10px;min-width: 273px;position: relative;border-radius: 10px;}
+.box-social li.list-inline-item a:after {position: absolute;content: "";width: 15px;height: 15px;background: url(../images/arrow-socc.png) no-repeat center;right: 15px;background-size: 100%;}
 .box-social li.list-inline-item a:hover {background: linear-gradient(90deg, #00E3FF 0%,#1F50FF 25%,#1D20FF 50%,#1C5DFF 75%,#00E3FF 100%);color: #fff;text-decoration: none;}
-.box-social li.list-inline-item a:hover:after{background: url(../images/arrow-socc-white.png) no-repeat center;}
-.box-social li.list-inline-item a img {margin-right: 15px;}
+.box-social li.list-inline-item a:hover:after{background: url(../images/arrow-socc-white.png) no-repeat center;background-size: 100%;}
+.box-social li.list-inline-item a img {margin-right: 15px;max-width: 27px;}
 .box-social h3 img {margin-right: 10px;}
 .partnering-box .pop-up-box .box-social.box-social-last{border: none;padding: 0;}
 
