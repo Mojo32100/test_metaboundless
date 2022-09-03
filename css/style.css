@@ -276,10 +276,10 @@ li.type-image.slick-slide.slick-current.slick-active .utility-text p{color: #fff
 .neon-charachter-in.neon-charachter-in h2 {font-size: 24px;color: #fff;text-align: center;font-weight: 700;text-transform: uppercase;letter-spacing: 4px;}
 .neon-charachter-in.neon-charachter-in h2.clr-1 {color: #FC78D7;text-shadow: 0 0 28px;}
 .neon-charachter-in.neon-charachter-in h2.clr-2 {color: #78D4FC;text-shadow: 0 0 28px;}
-.neon-charachter-in.neon-charachter-in h2.clr-3 {color: #2651ED;text-shadow: 0 0 28px;text-transform: capitalize;font-size: 18px;max-width: 90%;text-align: left;font-weight: 800;padding: 10px 0 0 18px;line-height: 28px;margin: 0;letter-spacing: 1px;}
-.neon-charachter-in-3-right {max-width: 30%;}
-.neon-charachter-in.neon-charachter-in-3:before{position: absolute;content: "";max-width: 500px;min-height: 2px;background: url(../images/celb-line.png) no-repeat center;background-size: 100%;top: -40px;left: 0;right: 0;margin: 0 auto;}
-.neon-charachter-in.neon-charachter-in-3:after{position: absolute;content: "";max-width: 500px;min-height: 2px;background: url(../images/celb-line.png) no-repeat center;background-size: 100%;bottom: -40px;left: 0;right: 0;margin: 0 auto;}
+.neon-charachter-in.neon-charachter-in h2.clr-3 {color: #2651ED;text-shadow: 0 0 28px;text-transform: capitalize;font-size: 22px;max-width: 90%;text-align: left;font-weight: 800;padding: 10px 0 0 27px;line-height: 28px;margin: 0;letter-spacing: 1px;}
+.neon-charachter-in-3-right {max-width: 35%;}
+.neon-charachter-in.neon-charachter-in-3:before{position: absolute;content: "";max-width: 650px;min-height: 2px;background: url(../images/celb-line.png) no-repeat center;background-size: 100%;top: -40px;left: 0;right: 0;margin: 0 auto;}
+.neon-charachter-in.neon-charachter-in-3:after{position: absolute;content: "";max-width: 650px;min-height: 2px;background: url(../images/celb-line.png) no-repeat center;background-size: 100%;bottom: -40px;left: 0;right: 0;margin: 0 auto;}
 
 .fav-celeb-text h2{color: #DBDDFF;font-weight: 500;font-size: 60px;margin: 0 0 30px;}
 .fav-celeb-text h2 span {font-size: 28px;display: block;text-transform: uppercase;letter-spacing: 3px;font-weight: 500;margin-bottom: 20px;}
