@@ -132,7 +132,8 @@ footer .foot-menu a.nav-link {font-size: 18px;}
 .concert-banner:before {background: url(../images/reward-bg-back.png) no-repeat top -130px center;min-height: 758px;background-size: cover;bottom: 0;}
 .concert-banner-text h1,.claim-nft-banner-text h1{font-size: 56px;}
 .neon-charachter-in.neon-charachter-in h2 {font-size: 18px;}
-.neon-charachter-in.neon-charachter-in h2.clr-3 {font-size: 16px;line-height: 25px;}
+.neon-charachter-in.neon-charachter-in h2.clr-3 {font-size: 20px;line-height: 28px;}
+.neon-charachter-in-3-right {max-width: 40%;}
 
 
 }
@@ -372,7 +373,7 @@ footer p {order: 3;}
 .neon-charachter-in.neon-charachter-in-3 > img {max-width: 190px !important;}
 .neon-charachter-in.neon-charachter-in-3 img {max-width: 142px;}
 .neon-charachter-in.neon-charachter-in-3 {margin-top: 50px;}
-
+.neon-charachter-in-3-right{max-width: 45%;}
 
 }
 
@@ -544,7 +545,7 @@ footer .foot-menu a.nav-link {font-size: 16px;}
 .neon-charachter-in.neon-charachter-in {right: 0;}
 .neon-charachter-in.neon-charachter-in {flex-direction: column;}
 .neon-charachter-in-3-right {max-width: 100%;text-align: center;}
-.neon-charachter-in.neon-charachter-in h2.clr-3 {text-align: center;}
+.neon-charachter-in.neon-charachter-in h2.clr-3 {text-align: center;margin: 15px 0 0;line-height: 20px;}
 .neon-charachter-in.neon-charachter-in-3 {margin: 60px auto;}
 .neon-charachter-in.neon-charachter-in-3 img {max-width: 160px;}
 .ticket-book {padding: 50px 0 100px;}
