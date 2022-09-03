@@ -221,7 +221,7 @@ li.type-image.slick-slide.slick-current.slick-active .utility-text p{color: #fff
 
 /*ticket*/
 .concert-banner{padding: 100px 10px;background: url(../images/concert-ticket-bg.png) no-repeat top center;background-size: 100%;position: relative;}
-.concert-banner:before{background: url(../images/reward-bg-back.png) no-repeat left center;width: 100%;min-height: 600px;content: "";position: absolute;left: 0;bottom: -60px;background-size: 100%;}
+.concert-banner:before{background: url(../images/reward-bg-back.png) no-repeat left center;width: 100%;min-height: 600px;content: "";position: absolute;left: 0;bottom: 458px;background-size: 100%;}
 .concert-banner-text h1{color: #fff;font-weight: 600;font-size: 70px;margin: 110px 0 15px;text-transform: uppercase;letter-spacing: 5px;}
 .concert-banner-text span {/* font-weight: 400; *//* display: block; *//* font-size: 60px; *//* margin: 0 0 10px; */}
 .concert-banner-text p {max-width: 85%;font-size: 26px;color: #ffffff;line-height: 40px;font-weight: 300;margin: 0 auto 75px;}
@@ -257,7 +257,7 @@ li.type-image.slick-slide.slick-current.slick-active .utility-text p{color: #fff
 
 /*claim-nft*/
 .claim-nft-banner{padding: 100px 10px;background: url(../images/meta-nft-bg.png) no-repeat top center;background-size: 100%;position: relative;}
-.claim-nft-banner:before{background: url(../images/reward-bg-back.png) no-repeat left center;width: 100%;min-height: 600px;content: "";position: absolute;left: 0;bottom: -60px;background-size: 100%;}
+.claim-nft-banner:before{background: url(../images/reward-bg-back.png) no-repeat left center;width: 100%;min-height: 600px;content: "";position: absolute;left: 0;bottom: 458px;background-size: 100%;}
 .claim-nft-banner-text h1{color: #fff;font-weight: 600;font-size: 70px;margin: 110px 0 15px;letter-spacing: 5px;}
 .claim-nft-banner-text span {font-weight: 300;display: block;font-size: 40px;margin: 0 0 10px;}
 .claim-nft-banner-text p {max-width: 77%;font-size: 26px;color: #BDC4FF;line-height: 40px;font-weight: 300;margin: 0 auto 70px;}
@@ -270,10 +270,22 @@ li.type-image.slick-slide.slick-current.slick-active .utility-text p{color: #fff
 .claim-nft-banner-solider-2 {transform: scale(1.10) !important;}
 .claim-nft-banner-solider-2 h2{font-weight: 600;font-size: 22px;}
 .neon-charachter {display: flex;justify-content: center;}
-.neon-charachter-in.neon-charachter-in-1 {margin-top: 85px;position: relative;left: -50px;top: -40px;}
-.neon-charachter-in.neon-charachter-in-3 {margin-top: 70px;position: relative;right: -50px;top: -5px;}
+.neon-charachter-in.neon-charachter-in-1 {margin-top: 85px;position: relative;left: -250px;top: -40px;}
+.neon-charachter-in.neon-charachter-in-2 {right: -250px;position: relative;}
+.neon-charachter-in.neon-charachter-in-3 {margin-top: 100px;position: relative;right: -50px;top: -5px;display: flex;align-items: center;justify-content: center;}
+.neon-charachter-in.neon-charachter-in h2 {font-size: 24px;color: #fff;text-align: center;font-weight: 700;text-transform: uppercase;letter-spacing: 4px;}
+.neon-charachter-in.neon-charachter-in h2.clr-1 {color: #FC78D7;text-shadow: 0 0 28px;}
+.neon-charachter-in.neon-charachter-in h2.clr-2 {color: #78D4FC;text-shadow: 0 0 28px;}
+.neon-charachter-in.neon-charachter-in h2.clr-3 {color: #2651ED;text-shadow: 0 0 28px;text-transform: capitalize;font-size: 18px;max-width: 90%;text-align: left;font-weight: 800;padding: 10px 0 0 18px;line-height: 28px;margin: 0;letter-spacing: 1px;}
+.neon-charachter-in-3-right {max-width: 30%;}
+.neon-charachter-in.neon-charachter-in-3:before{position: absolute;content: "";max-width: 500px;min-height: 2px;background: url(../images/celb-line.png) no-repeat center;background-size: 100%;top: -40px;left: 0;right: 0;margin: 0 auto;}
+.neon-charachter-in.neon-charachter-in-3:after{position: absolute;content: "";max-width: 500px;min-height: 2px;background: url(../images/celb-line.png) no-repeat center;background-size: 100%;bottom: -40px;left: 0;right: 0;margin: 0 auto;}
 
 .fav-celeb-text h2{color: #DBDDFF;font-weight: 500;font-size: 60px;margin: 0 0 30px;}
+.fav-celeb-text h2 span {font-size: 28px;display: block;text-transform: uppercase;letter-spacing: 3px;font-weight: 500;margin-bottom: 20px;}
+.fav-celeb-text h2 span.clr-1 {color: #78D4FC;}
+.fav-celeb-text h2 span.clr-2 {color: #FC78D7;}
+.fav-celeb-text h2 span.clr-3 {color: #2651ED;}
 .fav-celeb-text p {max-width: 100%;font-size: 22px;color: #DBDDFF;line-height: 35px;font-weight: 400;margin: 0 0 20px;}
 .btn-celeb a.btn-boundless {margin: 25px 0 0;min-height: 70px;line-height: 54px; pointer-events: none;}
 .btn-celeb a.btn-boundless span {display: block;font-size: 11px;font-weight: 300;line-height: initial;margin-top: -15px;position: relative;right: -12px;letter-spacing: 2px;}
@@ -335,7 +347,9 @@ li.type-image.slick-slide.slick-current.slick-active .utility-text p{color: #fff
 
 
 .partnering-box h2 {font-size: 40px;text-transform: uppercase;color: rgb(255 255 255 / 50%);font-weight: 400;display: inline-block;background: linear-gradient(270deg, #163c4f 0%, #101560 50%, #1b3e50 100%);padding: 38px 65px;position: relative;border-radius: 16px;overflow: hidden;transition: padding 0.3s, width 0.3s, height 0.3s ease;border: 1px solid #1f4e6c;}
-.partnering-box:hover h2 {padding: 85px 45px;background: linear-gradient(90deg, #00E3FF 0%,#1F50FF 25%,#1D20FF 50%,#1C5DFF 75%,#00E3FF 100%);font-size: 54px;color: #fff;transition: padding 0.3s, width 0.3s, height 0.3s ease;}
+.partnering-box h2 span {display: block;font-size: 18px;color: #638CB0;margin-bottom: 5px;}
+.partnering-box:hover h2 span {color: #fff;font-size: 22px;}
+.partnering-box:hover h2 {padding: 65px 45px;background: linear-gradient(90deg, #00E3FF 0%,#1F50FF 25%,#1D20FF 50%,#1C5DFF 75%,#00E3FF 100%);font-size: 54px;color: #fff;transition: padding 0.3s, width 0.3s, height 0.3s ease;}
 .partnering-box {text-align: center;position: relative;margin: 0;/* z-index: -1; */}
 .partnering-main-box {margin: 100px 0;}
 .pop-up-box video{min-height: 342px;max-width: 452px;object-fit: cover;border-radius: 20px;border: 2px solid #08bdff;padding: 15px;overflow: hidden;position: absolute;left: 0;top: 50%;transform: translateY(-50%);}
