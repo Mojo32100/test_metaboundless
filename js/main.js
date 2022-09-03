@@ -47,7 +47,7 @@ $('.nftss-slider').owlCarousel({
   loop:true,
   dots:true,
   autoplay:true,
-  autoplayTimeout:8000,
+  autoplayTimeout:12000,
   margin:0,
   autoHeight:true,
   nav:false,
