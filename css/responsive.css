@@ -11,6 +11,9 @@
 .what-we-middle ul li{font-size: 25px;}
 .partnering-box:hover .pop-up-box > img {opacity: 1;width: 352px;padding: 15px;left: -121px;height: 456px;}
 .what-we-middle ul .ppcr span{font-size: 22px;}
+.neon-charachter-in.neon-charachter-in-1 {left: -180px;}
+.neon-charachter-in.neon-charachter-in-2 {right: -180px;}
+
 
 }
 
@@ -38,6 +41,9 @@
 .partnering-box:hover .pop-up-box .box-social.box-social-last {right: 343px;}
 .concert-banner{background-size: 130%;}
 .gallery-banner{background-size: 180%;}
+.neon-charachter-in.neon-charachter-in-1 {left: -70px;top: -54px;}
+.neon-charachter-in.neon-charachter-in-2 {right: -70px;}
+
 
 }
 
@@ -121,11 +127,12 @@ footer .foot-menu a.nav-link {font-size: 18px;}
 .box-social li.list-inline-item a img {max-width: 23px;}
 .box-social li.list-inline-item a:after,.box-social li.list-inline-item a:hover:after {width: 15px;height: 15px;background-size: 100%;}
 .neon-charachter-in.neon-charachter-in-1 {max-width: 290px;}
-.neon-charachter-in.neon-charachter-in-2 {max-width: 320px;}
-.neon-charachter-in.neon-charachter-in-3 {max-width: 310px;}
-.claim-nft-banner:before {background: url(../images/reward-bg-back.png) no-repeat top -84px center;min-height: 500px;}
-.concert-banner:before {background: url(../images/reward-bg-back.png) no-repeat top -84px center;min-height: 500px;}
+.neon-charachter-in.neon-charachter-in-2 {max-width: 290px;}
+.claim-nft-banner:before {background: url(../images/reward-bg-back.png) no-repeat top -130px center;min-height: 758px;background-size: cover;bottom: 0;}
+.concert-banner:before {background: url(../images/reward-bg-back.png) no-repeat top -130px center;min-height: 758px;background-size: cover;bottom: 0;}
 .concert-banner-text h1,.claim-nft-banner-text h1{font-size: 56px;}
+.neon-charachter-in.neon-charachter-in h2 {font-size: 18px;}
+.neon-charachter-in.neon-charachter-in h2.clr-3 {font-size: 16px;line-height: 25px;}
 
 
 }
@@ -273,14 +280,17 @@ li.type-image.slick-slide.slick-current.slick-active .utility-text {padding: 25p
 .gallery-images-g a .btn-videos {width: 50px;height: auto;}
 .box-social h4 {font-size: 38px;}
 .box-social li.list-inline-item a {padding: 10px;font-size: 15px;}
-.neon-charachter-in.neon-charachter-in-1 {max-width: 200px;left: -30px;}
-.neon-charachter-in.neon-charachter-in-2 {max-width: 240px;}
-.neon-charachter-in.neon-charachter-in-3 {max-width: 220px;right: -30px;}
+.neon-charachter-in.neon-charachter-in-1 {max-width: 200px;left: -30px;top: -61px;}
+.neon-charachter-in.neon-charachter-in-2 {max-width: 200px;}
 .claim-nft-banner:before {min-height: 100%;background-size: 100%;background-position: top 695px center;}
 .concert-banner:before {min-height: 100%;background-size: 100%;background-position: top 695px center;}
 .gallery-banner{background-size: 180%;}
 .partnering-box:hover h2{padding: 45px 45px;}
-
+.neon-charachter-in.neon-charachter-in h2 {font-size: 14px;}
+.neon-charachter-in.neon-charachter-in h2.clr-3 {font-size: 14px;max-width: 300px;line-height: 22px;padding-left: 14px;padding-top: 0;}
+.neon-charachter-in-3-right img {max-width: 158px;}
+.neon-charachter-in.neon-charachter-in-3 {right: 0;}
+.neon-charachter-in-3-right {max-width: 40%;}
 
 
 }
@@ -357,7 +367,11 @@ footer p {order: 3;}
 .gallery-banner{background-size: 300%;}
 .grid-gallery{grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));}
 .concert-banner{background-size: 260%;}
-
+.partnering-box h2 span{font-size: 16px;}
+.fav-celeb-text h2 span {font-size: 20px;margin-bottom: 15px;}
+.neon-charachter-in.neon-charachter-in-3 > img {max-width: 190px !important;}
+.neon-charachter-in.neon-charachter-in-3 img {max-width: 142px;}
+.neon-charachter-in.neon-charachter-in-3 {margin-top: 50px;}
 
 
 }
@@ -526,6 +540,14 @@ footer .foot-menu a.nav-link {font-size: 16px;}
 .grid-gallery {display: flex;flex-direction: column;}
 .grid-gallery > div{padding: 0;}
 .title-all.title-ticket-bk {margin-bottom: 0;}
+.fav-celeb-text h2 span {font-size: 17px;margin-bottom: 8px;}
+.neon-charachter-in.neon-charachter-in {right: 0;}
+.neon-charachter-in.neon-charachter-in {flex-direction: column;}
+.neon-charachter-in-3-right {max-width: 100%;text-align: center;}
+.neon-charachter-in.neon-charachter-in h2.clr-3 {text-align: center;}
+.neon-charachter-in.neon-charachter-in-3 {margin: 60px auto;}
+.neon-charachter-in.neon-charachter-in-3 img {max-width: 160px;}
+.ticket-book {padding: 50px 0 100px;}
 
 
 }
