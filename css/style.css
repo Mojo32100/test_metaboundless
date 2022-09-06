@@ -439,6 +439,17 @@ li.type-image.slick-slide.slick-current.slick-active .utility-text p{color: #fff
 @media screen and (min-width: 1024px){
 .wrapper-grid{width: 960px;margin: 0 auto;}
 }
+.gall-1.box-cel-imag {
+    flex-direction: column;
+}
+
+.gall-1.box-cel-imag a {
+    margin-bottom: 30px;
+}
+
+.mobile-image-g{display: none;}
+
+
 
 /*footer*/
 footer {padding: 100px 0 0;position: relative;background: url(../images/wave.png) no-repeat center;z-index: 1;text-align: center;background-size: 100%;position: relative;}
