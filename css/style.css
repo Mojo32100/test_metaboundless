@@ -89,7 +89,7 @@ a.btn-boundless:after {position: absolute;content: "";min-width: 205px;height: 6
 .btn-metaverse a.btn-boundless {background: #fff;color: #361dff;}
 .btn-metaverse a.btn-boundless:hover {background: linear-gradient(90deg, #3300ff 0%,#4ee8ff 100%);color: #fff;}
 .title-concert-future span {font-size: 22px;}
-.title-concert-future p {font-size: 22px;margin: 15px 0 20px;max-width: 82%;margin: 0 auto;}
+.title-concert-future p {font-size: 22px;margin: 15px 0 20px;max-width: 62%;margin: 0 auto;}
 .title-concert-future h3 {color: rgb(219 221 255 / 90%);font-size: 20px;max-width: 55%;line-height: 30px;margin: 0 auto;}
 .title-concert-future h3 label {color: #fff;}
 
