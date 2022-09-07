@@ -11,9 +11,10 @@
 .what-we-middle ul li{font-size: 25px;}
 .partnering-box:hover .pop-up-box > img {opacity: 1;width: 352px;padding: 15px;left: -121px;height: 456px;}
 .what-we-middle ul .ppcr span{font-size: 22px;}
-.neon-charachter-in.neon-charachter-in-1 {left: -180px;}
+.neon-charachter-in.neon-charachter-in-1 {left: -180px;top: -116px;}
 .neon-charachter-in.neon-charachter-in-2 {right: -180px;}
 .title-concert-future p {max-width: 75%;}
+.concert-banner:before,.claim-nft-banner:before{bottom: 730px;}
 
 
 
@@ -43,9 +44,11 @@
 .partnering-box:hover .pop-up-box .box-social.box-social-last {right: 343px;}
 .concert-banner{background-size: 130%;}
 .gallery-banner{background-size: 180%;}
-.neon-charachter-in.neon-charachter-in-1 {left: -70px;top: -54px;}
+.neon-charachter-in.neon-charachter-in-1 {left: -70px;top: -134px;}
 .neon-charachter-in.neon-charachter-in-2 {right: -70px;}
 .title-concert-future p {max-width: 82%;}
+.neon-charachter-in.neon-charachter-in-2,.neon-charachter-in.neon-charachter-in-1{max-width: 470px;}
+.concert-banner:before,.claim-nft-banner:before{bottom: 689px;}
 
 
 
@@ -130,10 +133,10 @@ footer .foot-menu a.nav-link {font-size: 18px;}
 .box-social li.list-inline-item a {font-size: 16px;height: initial;max-height: 50px;}
 .box-social li.list-inline-item a img {max-width: 23px;}
 .box-social li.list-inline-item a:after,.box-social li.list-inline-item a:hover:after {width: 15px;height: 15px;background-size: 100%;}
-.neon-charachter-in.neon-charachter-in-1 {max-width: 290px;}
+.neon-charachter-in.neon-charachter-in-1 {max-width: 290px;top: -108px;}
 .neon-charachter-in.neon-charachter-in-2 {max-width: 290px;}
-.claim-nft-banner:before {background: url(../images/reward-bg-back.png) no-repeat top -130px center;min-height: 758px;background-size: cover;bottom: 0;}
-.concert-banner:before {background: url(../images/reward-bg-back.png) no-repeat top -130px center;min-height: 758px;background-size: cover;bottom: 0;}
+.claim-nft-banner:before {background: url(../images/reward-bg-back.png) no-repeat top -130px center;min-height: 758px;background-size: cover;bottom: 325px;}
+.concert-banner:before {background: url(../images/reward-bg-back.png) no-repeat top -130px center;min-height: 758px;background-size: cover;bottom: 325px;}
 .concert-banner-text h1,.claim-nft-banner-text h1{font-size: 56px;}
 .neon-charachter-in.neon-charachter-in h2 {font-size: 18px;}
 .neon-charachter-in.neon-charachter-in h2.clr-3 {font-size: 20px;line-height: 28px;}
@@ -285,9 +288,7 @@ li.type-image.slick-slide.slick-current.slick-active .utility-text {padding: 25p
 .gallery-images-g a .btn-videos {width: 50px;height: auto;}
 .box-social h4 {font-size: 38px;}
 .box-social li.list-inline-item a {padding: 10px;font-size: 15px;}
-.neon-charachter-in.neon-charachter-in-1 {max-width: 200px;left: -30px;top: -61px;}
-.neon-charachter-in.neon-charachter-in-2 {max-width: 200px;}
-.claim-nft-banner:before {min-height: 100%;background-size: 100%;background-position: top 695px center;}
+.claim-nft-banner:before {min-height: 100%;background-size: 100%;background-position: top 1005px center;}
 .concert-banner:before {min-height: 100%;background-size: 100%;background-position: top 695px center;}
 .gallery-banner{background-size: 180%;}
 .partnering-box:hover h2{padding: 45px 45px;}
@@ -296,6 +297,8 @@ li.type-image.slick-slide.slick-current.slick-active .utility-text {padding: 25p
 .neon-charachter-in-3-right img {max-width: 158px;}
 .neon-charachter-in.neon-charachter-in-3 {right: 0;}
 .neon-charachter-in-3-right {max-width: 40%;}
+.neon-charachter-in.neon-charachter-in h2.clr-1,.neon-charachter-in.neon-charachter-in h2.clr-2{margin-top: 20px;}
+.neon-charachter-in.neon-charachter-in-1 {margin-top: 0;top: -22px;}
 
 
 }
@@ -376,8 +379,12 @@ footer p {order: 3;}
 .fav-celeb-text h2 span {font-size: 20px;margin-bottom: 15px;}
 .neon-charachter-in.neon-charachter-in-3 > img {max-width: 190px !important;}
 .neon-charachter-in.neon-charachter-in-3 img {max-width: 142px;}
-.neon-charachter-in.neon-charachter-in-3 {margin-top: 50px;}
+.neon-charachter-in.neon-charachter-in-3 {margin-top: 90px;}
 .neon-charachter-in-3-right{max-width: 45%;}
+.neon-charachter-in.neon-charachter-in-1 {left: 0;top: -10px;}
+.neon-charachter-in.neon-charachter-in-2 {right: 0;}
+
+
 
 }
 
@@ -537,8 +544,8 @@ footer .foot-menu a.nav-link {font-size: 16px;}
 .box-social li.list-inline-item a img {margin-right: 15px;width: 23px;min-height: auto;}
 .partnering-box:hover .pop-up-box .box-social, .partnering-box .pop-up-box .box-social{max-width: 100%;min-width: 100%;min-height: 100%;height: auto;margin: 15px 0 0;}
 .neon-charachter {flex-direction: column;justify-content: center;align-items: center;}
-.neon-charachter-in.neon-charachter-in-1 {left: 0;max-width: 280px;top: 0;margin: 0;order: 1;}
-.neon-charachter-in.neon-charachter-in-2 {max-width: 280px;order: 0;}
+.neon-charachter-in.neon-charachter-in-1 {left: 0;max-width: 280px;top: 0;margin: 0;}
+.neon-charachter-in.neon-charachter-in-2 {max-width: 280px;}
 .neon-charachter-in.neon-charachter-in-3 {max-width: 270px;right: 0;order: 2;margin: 0;}
 .neon-charachter-in.neon-charachter-in {margin: 25px 0;}
 .grid-gallery {display: flex;flex-direction: column;}
