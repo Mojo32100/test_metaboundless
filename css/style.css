@@ -221,7 +221,7 @@ li.type-image.slick-slide.slick-current.slick-active .utility-text p{color: #fff
 
 /*ticket*/
 .concert-banner{padding: 100px 10px;background: url(../images/concert-ticket-bg.png) no-repeat top center;background-size: 100%;position: relative;}
-.concert-banner:before{background: url(../images/reward-bg-back.png) no-repeat left center;width: 100%;min-height: 600px;content: "";position: absolute;left: 0;bottom: 458px;background-size: 100%;}
+.concert-banner:before{background: url(../images/reward-bg-back.png) no-repeat left center;width: 100%;min-height: 600px;content: "";position: absolute;left: 0;bottom: 740px;background-size: 100%;}
 .concert-banner-text h1{color: #fff;font-weight: 600;font-size: 70px;margin: 110px 0 15px;text-transform: uppercase;letter-spacing: 5px;}
 .concert-banner-text span {/* font-weight: 400; *//* display: block; *//* font-size: 60px; *//* margin: 0 0 10px; */}
 .concert-banner-text p {max-width: 85%;font-size: 26px;color: #ffffff;line-height: 40px;font-weight: 300;margin: 0 auto 75px;}
@@ -257,7 +257,7 @@ li.type-image.slick-slide.slick-current.slick-active .utility-text p{color: #fff
 
 /*claim-nft*/
 .claim-nft-banner{padding: 100px 10px;background: url(../images/meta-nft-bg.png) no-repeat top center;background-size: 100%;position: relative;}
-.claim-nft-banner:before{background: url(../images/reward-bg-back.png) no-repeat left center;width: 100%;min-height: 600px;content: "";position: absolute;left: 0;bottom: 458px;background-size: 100%;}
+.claim-nft-banner:before{background: url(../images/reward-bg-back.png) no-repeat left center;width: 100%;min-height: 600px;content: "";position: absolute;left: 0;bottom: 740px;background-size: 100%;}
 .claim-nft-banner-text h1{color: #fff;font-weight: 600;font-size: 70px;margin: 110px 0 15px;letter-spacing: 5px;}
 .claim-nft-banner-text span {font-weight: 300;display: block;font-size: 40px;margin: 0 0 10px;}
 .claim-nft-banner-text p {max-width: 77%;font-size: 26px;color: #BDC4FF;line-height: 40px;font-weight: 300;margin: 0 auto 70px;}
@@ -270,13 +270,13 @@ li.type-image.slick-slide.slick-current.slick-active .utility-text p{color: #fff
 .claim-nft-banner-solider-2 {transform: scale(1.10) !important;}
 .claim-nft-banner-solider-2 h2{font-weight: 600;font-size: 22px;}
 .neon-charachter {display: flex;justify-content: center;}
-.neon-charachter-in.neon-charachter-in-1 {margin-top: 85px;position: relative;left: -250px;top: -40px;}
-.neon-charachter-in.neon-charachter-in-2 {right: -250px;position: relative;}
-.neon-charachter-in.neon-charachter-in-3 {margin-top: 100px;position: relative;right: -50px;top: -5px;display: flex;align-items: center;justify-content: center;}
+.neon-charachter-in.neon-charachter-in-1 {margin-top: 85px;position: relative;left: -250px;top: -114px;max-width: 520px;}
+.neon-charachter-in.neon-charachter-in-2 {right: -250px;position: relative;max-width: 520px;}
+.neon-charachter-in.neon-charachter-in-3 {margin-top: 100px;position: relative;right: -50px;top: -5px;display: flex;align-items: center;justify-content: center;flex-direction: column;}
 .neon-charachter-in.neon-charachter-in h2 {font-size: 24px;color: #fff;text-align: center;font-weight: 700;text-transform: uppercase;letter-spacing: 4px;}
-.neon-charachter-in.neon-charachter-in h2.clr-1 {color: #FC78D7;text-shadow: 0 0 28px;}
-.neon-charachter-in.neon-charachter-in h2.clr-2 {color: #78D4FC;text-shadow: 0 0 28px;}
-.neon-charachter-in.neon-charachter-in h2.clr-3 {color: #2651ED;text-shadow: 0 0 28px;text-transform: capitalize;font-size: 22px;max-width: 90%;text-align: left;font-weight: 800;padding: 10px 0 0 27px;line-height: 28px;margin: 0;letter-spacing: 1px;}
+.neon-charachter-in.neon-charachter-in h2.clr-1 {color: #FC78D7;text-shadow: 0 0 28px;margin-bottom: -15px;margin-top: 35px;}
+.neon-charachter-in.neon-charachter-in h2.clr-2 {color: #78D4FC;text-shadow: 0 0 28px;margin-bottom: -15px;margin-top: 35px;}
+.neon-charachter-in.neon-charachter-in h2.clr-3 {color: #2651ED;text-shadow: 0 0 28px;text-transform: capitalize;font-size: 22px;max-width: 30%;text-align: center;font-weight: 800;padding: 10px 0 15px;line-height: 28px;margin: 0;letter-spacing: 1px;}
 .neon-charachter-in-3-right {max-width: 35%;}
 .neon-charachter-in.neon-charachter-in-3:before{position: absolute;content: "";max-width: 650px;min-height: 2px;background: url(../images/celb-line.png) no-repeat center;background-size: 100%;top: -40px;left: 0;right: 0;margin: 0 auto;}
 .neon-charachter-in.neon-charachter-in-3:after{position: absolute;content: "";max-width: 650px;min-height: 2px;background: url(../images/celb-line.png) no-repeat center;background-size: 100%;bottom: -40px;left: 0;right: 0;margin: 0 auto;}
