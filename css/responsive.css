@@ -579,9 +579,11 @@ footer .foot-menu a.nav-link {font-size: 16px;}
 .mobile-image-g{display: block;}
 .web-image-g{display: none;}
 .gall-1.box-cel-imag a {margin-bottom: 5px;}
-.partner-inner-logo a img {
-    max-width: 260px;
-}
+.partner-inner-logo a img {max-width: 260px;}
+.title-all.title-center.partner-home-title span:after {width: 50px;right: -62px;}
+.title-all.title-center.partner-home-title span:before {width: 50px;left: -70px;}
+
+
 
 }
 
