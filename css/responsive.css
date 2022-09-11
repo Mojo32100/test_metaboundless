@@ -539,7 +539,7 @@ footer .foot-menu a.nav-link {font-size: 16px;}
 .module-gallery .slider-preview {margin-bottom: 0;}
 .module-gallery{padding: 0 0 35px;}
 .partner-inner-logo {flex-direction: column;}
-.partner-inner-logo a {padding: 8px 0;max-width: 320px;margin: 0 auto;}
+.partner-inner-logo a {padding: 0;max-width: 260px;margin: 5px auto;}
 .partner-home-title span img {max-width: 120px;margin-top: -12px;}
 .title-all.title-center.partner-home-title span:after {width: 72px;right: -91px;}
 .title-all.title-center.partner-home-title span:before {width: 72px;left: -91px;}
@@ -579,7 +579,9 @@ footer .foot-menu a.nav-link {font-size: 16px;}
 .mobile-image-g{display: block;}
 .web-image-g{display: none;}
 .gall-1.box-cel-imag a {margin-bottom: 5px;}
-
+.partner-inner-logo a img {
+    max-width: 260px;
+}
 
 }
 
