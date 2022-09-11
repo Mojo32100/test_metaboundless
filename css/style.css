@@ -213,7 +213,7 @@ li.type-image.slick-slide.slick-current.slick-active .utility-text p{color: #fff
 .title-all.title-center.partner-home-title span:after {width: 57px;right: -76px;}
 .title-all.title-center.partner-home-title h3 {color: #fff;font-size: 22PX;font-weight: 600;letter-spacing: 3px;color: #DBDDFF;margin: 1px 0 23px;}
 .partner-inner-logo {display: flex;align-items: center;justify-content: center;}
-.partner-inner-logo a {padding: 0 5px;}
+.partner-inner-logo a {margin: 0 6px;}
 .partner-home-title img {
     display: block;
     margin: 0 auto 75px;
