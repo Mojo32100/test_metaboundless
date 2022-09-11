@@ -68,7 +68,7 @@ a.create-btn {position: relative;padding: 10px 35px;margin: 0;font-size: 18px;te
 .title-all h2 {font-size: 70px;font-weight: 500;color: #DBDDFF;margin-bottom: 20px;}
 .title-all span {text-transform: uppercase;font-size: 18px;letter-spacing: 4px;color: #DBDDFF;font-weight: 500;margin-bottom: 15px;position: relative;display: inline-block;}
 .title-all span:after {position: absolute;content: "";width: 72px;height: 2px;background-color: #3300FF;top: 13px;right: -87px;}
-.title-all.title-center span:before {position: absolute;content: "";width: 72px;height: 2px;background-color: #3300FF;top: 13px;left: -87px;}
+.title-all.title-center span:before {position: absolute;content: "";width: 57px;height: 2px;background-color: #3300FF;top: 13px;left: -87px;}
 
 .title-all p {font-size: 26px;max-width: 100%;color: rgb(255 255 255 / 80%);font-weight: 300;margin: 30px 0 55px;}
 .title-all {margin-bottom: 50px;}
@@ -209,12 +209,18 @@ li.type-image.slick-slide.slick-current.slick-active .utility-text p{color: #fff
 .partner-home:before{background: url(../images/powerd-back-bg-left.png) no-repeat left center;content: "";position: absolute;left: 0;bottom: 20px;background-size: 100%;min-width: 390px;min-height: 800px;z-index: -1;}
 .partner-home:after{background: url(../images/powerd-back-bg-right.png) no-repeat left center;min-width: 420px;min-height: 770px;content: "";position: absolute;right: 0;bottom: 20px;background-size: 100%;z-index: -1;}
 .partner-home-title span img {margin-top: -32px;}
-.title-all.title-center.partner-home-title span:before {width: 140px;left: -169px;}
-.title-all.title-center.partner-home-title span:after {width: 140px;right: -169px;}
-.title-all.title-center.partner-home-title h3 {color: #fff;font-size: 32px;font-weight: 300;letter-spacing: 2px;color: #DBDDFF;margin: 75px 0 40px;}
+.title-all.title-center.partner-home-title span:before {width: 57PX;left: -74px;}
+.title-all.title-center.partner-home-title span:after {width: 57px;right: -76px;}
+.title-all.title-center.partner-home-title h3 {color: #fff;font-size: 22PX;font-weight: 600;letter-spacing: 3px;color: #DBDDFF;margin: 1px 0 23px;}
 .partner-inner-logo {display: flex;align-items: center;justify-content: center;}
-.partner-inner-logo a {padding: 0 25px;}
-
+.partner-inner-logo a {padding: 0 5px;}
+.partner-home-title img {
+    display: block;
+    margin: 0 auto 75px;
+}
+.partner-home-title a img {
+    margin: 0;
+}
 
 
 
