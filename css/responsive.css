@@ -298,6 +298,9 @@ li.type-image.slick-slide.slick-current.slick-active .utility-text {padding: 25p
 .neon-charachter-in-3-right {max-width: 40%;}
 .neon-charachter-in.neon-charachter-in h2.clr-1,.neon-charachter-in.neon-charachter-in h2.clr-2{margin-top: 20px;}
 .neon-charachter-in.neon-charachter-in-1 {margin-top: 0;top: -22px;}
+.partner-inner-logo a {width: 305px;}
+.partner-inner-logo {flex-direction: column;}
+.partner-inner-logo a img {width: 100%;}
 
 
 }
