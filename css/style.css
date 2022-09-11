@@ -319,12 +319,12 @@ li.type-image.slick-slide.slick-current.slick-active .utility-text p{color: #fff
 
 
 .sliding-text-1 {width: 100%;overflow: hidden;white-space: nowrap;}
-.sliding-text-1  ul {display: inline-block;white-space: nowrap;margin: 0;padding: 0;}
-.sliding-text-1  li {display: inline-block;max-width: 20%;list-style: none;margin: 0;padding: 0;}
-.sliding-text-1 li img {max-width: 100%;}
+.sliding-text-1  ul {display: inline-block;white-space: nowrap;margin: -10px 0 0;padding: 0;}
+.sliding-text-1  li {display: inline-block;max-width: 20%;list-style: none;margin: 0;padding: 0;vertical-align: middle;}
+.sliding-text-1 li img {width: 272px;height: 378px;}
+.sliding-text-1 li video {width: 272px;height: 378px;object-fit: cover;margin-top: 10px;}
 
 .celebs-photos-inner{display: flex;align-items: center;}
-.celebs-photos-inner img {max-width: 16.67%;}
 
 .what-we-do{padding: 170px 0;}
 .what-we-do h3 {color: #fff;font-weight: 500;font-size: 30px;text-transform: uppercase;letter-spacing: 9px;margin-bottom: 45px;}
