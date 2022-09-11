@@ -301,6 +301,7 @@ li.type-image.slick-slide.slick-current.slick-active .utility-text {padding: 25p
 .partner-inner-logo a {width: 305px;}
 .partner-inner-logo {flex-direction: column;}
 .partner-inner-logo a img {width: 100%;}
+.partner-inner-logo a:first-child {order: 2;}
 
 
 }
@@ -366,10 +367,8 @@ footer p {order: 3;}
 .claim-nft-banner-solider h2 {font-size: 14px;}
 .flip-container, .flip-container .front, .flip-container .back {min-height: 210px;border-radius: 20px;}
 .partner-home-title span img {max-width: 150px;margin-top: -18px;}
-.title-all.title-center.partner-home-title span:before {width: 100px;left: -130px;}
-.title-all.title-center.partner-home-title span:after {width: 100px;right: -130px;}
 .partner-home {padding: 100px 0 0;}
-.title-all.title-center.partner-home-title h3 {font-size: 18px;margin: 30px 0 20px;}
+.title-all.title-center.partner-home-title h3 {font-size: 14px;margin: 0 0 20px;}
 .partner-inner-logo a {padding: 0 10px;}
 .gallery-images-g a .btn-videos {width: 45px;height: 45px;}
 .claim-nft-banner:before {background-position: top 655px center;bottom: 0;}
@@ -385,7 +384,11 @@ footer p {order: 3;}
 .neon-charachter-in-3-right{max-width: 45%;}
 .neon-charachter-in.neon-charachter-in-1 {left: 0;top: -10px;}
 .neon-charachter-in.neon-charachter-in-2 {right: 0;}
-
+.partner-home-title img {max-width: 250px;margin-bottom: 30px;}
+.partner-inner-logo a img {width: 100%;max-width: 100%;}
+.title-all.title-center.partner-home-title span:after {width: 50px;right: -65px;top: 7px;}
+.title-all.title-center.partner-home-title span:before {width: 50px;left: -70px;top: 7px;}
+.partner-home-title span {margin-bottom: 30px;}
 
 
 }
@@ -540,7 +543,6 @@ footer .foot-menu a.nav-link {font-size: 16px;}
 .partner-home-title span img {max-width: 120px;margin-top: -12px;}
 .title-all.title-center.partner-home-title span:after {width: 72px;right: -91px;}
 .title-all.title-center.partner-home-title span:before {width: 72px;left: -91px;}
-.title-all.title-center.partner-home-title h3 {font-size: 16px;margin: 30px 0 10px;}
 .box-social li.list-inline-item a {/* text-indent: -9999px; *//* min-width: fit-content; *//* max-width: 100%; *//* width: 100%; */}
 .box-social li.list-inline-item, .box-social li.list-inline-item img {min-width: 22px;min-height: inherit;}
 .box-social li.list-inline-item a img {margin-right: 15px;width: 23px;min-height: auto;}
@@ -566,7 +568,6 @@ footer .foot-menu a.nav-link {font-size: 16px;}
 .mb-token-tit {text-align: center !IMPORTANT;}
 .about-mb-token .title-all h2 {text-align: center;}
 .title-all.mb-token-tit span:after {width: 25px;right: -30px;}
-.partner-inner-logo a:first-child {order: 2;}
 .bxx-partner {flex-direction: column;}
 .box-social li.list-inline-item {min-width: 100%;}
 .horizontal.gall-1 a img {min-height: 250px;}
