@@ -66,7 +66,7 @@ a.create-btn {position: relative;padding: 10px 35px;margin: 0;font-size: 18px;te
 @keyframes rotate-full {from {transform: rotate(0deg);} to {transform: rotate(359deg);}}
 
 .title-all h2 {font-size: 70px;font-weight: 500;color: #DBDDFF;margin-bottom: 20px;}
-.title-all span {text-transform: uppercase;font-size: 18px;letter-spacing: 4px;color: #DBDDFF;font-weight: 500;margin-bottom: 55px;position: relative;display: inline-block;}
+.title-all span {text-transform: uppercase;font-size: 18px;letter-spacing: 4px;color: #DBDDFF;font-weight: 500;margin: 30px 0;position: relative;display: inline-block;}
 .title-all span:after {position: absolute;content: "";width: 72px;height: 2px;background-color: #3300FF;top: 13px;right: -87px;}
 .title-all.title-center span:before {position: absolute;content: "";width: 57px;height: 2px;background-color: #3300FF;top: 13px;left: -87px;}
 .title-all.title-capitalizes span {text-transform: capitalize;}
@@ -209,20 +209,16 @@ li.type-image.slick-slide.slick-current.slick-active .utility-text p{color: #fff
 .partner-home {padding: 120px 0;position: relative;}
 .partner-home:before{background: url(../images/powerd-back-bg-left.png) no-repeat left center;content: "";position: absolute;left: 0;bottom: 20px;background-size: 100%;min-width: 390px;min-height: 800px;z-index: -1;}
 .partner-home:after{background: url(../images/powerd-back-bg-right.png) no-repeat left center;min-width: 420px;min-height: 770px;content: "";position: absolute;right: 0;bottom: 20px;background-size: 100%;z-index: -1;}
-.partner-home-title span img {margin-top: -32px;}
-.title-all.title-center.partner-home-title span:before {width: 75px;left: -94px;}
-.title-all.title-center.partner-home-title span:after {width: 75px;right: -94px;}
-.title-all.title-center.partner-home-title h3 {color: #fff;font-size: 22PX;font-weight: 600;letter-spacing: 5px;color: #DBDDFF;margin: 1px 0 23px;}
-.partner-inner-logo {display: flex;align-items: center;justify-content: center;}
+.partner-home-title span img {margin: 0;}
+.title-all.title-center.partner-home-title span:before {width: 75px;left: -94px;top: 32px;}
+.title-all.title-center.partner-home-title span:after {width: 75px;right: -94px;top: 32px;}
+.title-all.title-center.partner-home-title h3 {color: #fff;font-size: 20px;font-weight: 400;letter-spacing: 5px;color: #DBDDFF;margin: 43px 0 0;text-transform: uppercase;}
+.title-all.title-center.partner-home-title h4 {color: #fff;font-size: 24px;font-weight: 600;letter-spacing: 12px;color: #DBDDFF;margin: 0 0 50px;text-transform: uppercase;margin-left: 14px;}
+.partner-inner-logo {display: flex;align-items: center;justify-content: center;margin-top: -44px;}
 .partner-inner-logo a {margin: 0 6px;}
-.partner-home-title img {
-    display: block;
-    margin: 0 auto 50px;
-}
-.partner-home-title a img {
-    margin: 0;
-}
-
+.partner-home-title img {/* display: block; */margin: 0 auto 50px;}
+.partner-home-title a img {margin: 0}
+.title-all.title-center .concert-titl {background: url(../images/brought-bg.png) no-repeat center;padding: 15px;display: flex;flex-direction: column;align-items: center;justify-content: center;}
 
 
 
