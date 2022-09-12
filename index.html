@@ -16,6 +16,19 @@
     <title>Meta Boundless</title>
   </head>
   <body>
+    <script type="text/javascript">
+      $('body').on('click touchstart', function () {
+            const videoElement = document.getElementById('home_video');
+            if (videoElement.playing) {
+                // video is already playing so do nothing
+            }
+            else {
+                // video is not playing
+                // so play video now
+                videoElement.play();
+            }
+    });
+    </script>
 
     <div class="main-body">
 
@@ -80,7 +93,7 @@
 
         <section class="boundless-banner">
               <div class="banner-video">
-                <video  width="100%" height="100%" loop autoplay muted playsinline>
+                <video id="home_video"  width="100%" height="100%" loop autoplay muted playsinline>
                   <source src="https://metaboundless-assets-public.s3.ap-south-1.amazonaws.com/MetaBoundless_Hero_Section_Landing.mp4" type="video/mp4">
                 </video>
                 <div class="boundless-banner-text">
