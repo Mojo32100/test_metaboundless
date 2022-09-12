@@ -17,7 +17,19 @@
 </head>
 
 <body>
-
+  <script type="text/javascript">
+      $('body').on('click touchstart', function () {
+            const videoElement = document.getElementById('all_video');
+            if (videoElement.playing) {
+                // video is already playing so do nothing
+            }
+            else {
+                // video is not playing
+                // so play video now
+                videoElement.play();
+            }
+    });
+    </script>
   <div class="main-body">
 
     <header>
@@ -84,7 +96,7 @@
 
     <section class="boundless-banner boundless-banner-about">
       <div class="banner-video banner-video-about">
-        <video width="100%" height="100%" loop autoplay muted playsinline>
+        <video id="all_video" width="100%" height="100%" loop autoplay muted playsinline>
           <source src="https://metaboundless-assets-public.s3.ap-south-1.amazonaws.com/MetaBoundless_AboutUs_Video_Updated.mp4" type="video/mp4">
         </video>
         <div class="boundless-banner-text">
@@ -127,27 +139,27 @@
       <ul class="celebs-photos-inner list-unstyled" behavior="scroll" direction="right">
         <li><img src="images/celeb-cu-1.png" alt="Image"></li>        
         <li>
-          <video width="100%" height="100%" loop autoplay muted>
+          <video id="all_video" width="100%" height="100%" loop autoplay muted>
             <source src="https://metaboundless-assets-public.s3.ap-south-1.amazonaws.com/Ragheb+Alama_Our+Celebrities_Video.mp4" type="video/mp4">
           </video>
         </li>
         <li><img src="images/celeb-cu-9.png" alt="Image"></li>
         <li>
-          <video width="100%" height="100%" loop autoplay muted>
+          <video id="all_video" width="100%" height="100%" loop autoplay muted>
             <source src="https://metaboundless-assets-public.s3.ap-south-1.amazonaws.com/Saad+Lamjareed_Our+Celebrities_Video.mp4" type="video/mp4">
           </video>
         </li>
         <li><img src="images/celeb-cu-3.png" alt="Image"></li>
         <li><img src="images/celeb-cu-6.png" alt="Image"></li>
         <li>
-          <video width="100%" height="100%" loop autoplay muted>
+          <video id="all_video" width="100%" height="100%" loop autoplay muted>
             <source src="https://metaboundless-assets-public.s3.ap-south-1.amazonaws.com/Ragheb+Alama_Our+Celebrities_Video.mp4" type="video/mp4">
           </video>
         </li>
         <li><img src="images/celeb-cu-7.png" alt="Image"></li>
         <li><img src="images/celeb-cu-8.png" alt="Image"></li>  
         <li>
-          <video width="100%" height="100%" loop autoplay muted>
+          <video id="all_video" width="100%" height="100%" loop autoplay muted>
             <source src="https://metaboundless-assets-public.s3.ap-south-1.amazonaws.com/Saad+Lamjareed_Our+Celebrities_Video.mp4" type="video/mp4">
           </video>
         </li>      
@@ -214,7 +226,7 @@
                 <div class="pop-up-box">
                   <h2><span> Superstar</span> Ragheb alama</h2>
                   <div class="bxx-partner">
-                    <video width="100%" height="100%" loop autoplay muted playsinline>
+                    <video id="all_video" width="100%" height="100%" loop autoplay muted playsinline>
                       <source src="https://metaboundless-assets-public.s3.ap-south-1.amazonaws.com/Metaboundless_Ragheb_NFT.mp4" type="video/mp4">
                     </video>
                     <div class="box-social">
@@ -254,7 +266,7 @@
                 <div class="pop-up-box">
                   <h2><span>LM3ALLEM</span> Saad Lamjarred</h2>
                   <div class="bxx-partner">
-                    <video width="100%" height="100%" loop autoplay muted playsinline>
+                    <video id="all_video" width="100%" height="100%" loop autoplay muted playsinline>
                       <source src="https://metaboundless-assets-public.s3.ap-south-1.amazonaws.com/Metaboundless_Updated_NFT_HQ.mp4" type="video/mp4">
                     </video>
                     <div class="box-social">
@@ -294,7 +306,7 @@
                 <div class="pop-up-box">
                   <h2><span>composer</span> Michel fadel</h2>
                   <div class="bxx-partner">
-                    <video width="100%" height="100%" loop autoplay muted playsinline>
+                    <video id="all_video" width="100%" height="100%" loop autoplay muted playsinline>
                       <source src="https://metaboundless-assets-public.s3.ap-south-1.amazonaws.com/Metaboundless_Michel_NFT.mp4" type="video/mp4">
                     </video>
                     <div class="box-social">
