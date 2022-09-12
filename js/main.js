@@ -129,7 +129,7 @@ $(() => {
   const totalLength = list.outerWidth(true);
   
   const animationStart = (isResume = false) => {
-    let duration = 30000;
+    let duration = 60000;
     
     if(!isResume) {
       slidingText.scrollLeft(totalLength);
