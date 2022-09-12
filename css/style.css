@@ -69,6 +69,7 @@ a.create-btn {position: relative;padding: 10px 35px;margin: 0;font-size: 18px;te
 .title-all span {text-transform: uppercase;font-size: 18px;letter-spacing: 4px;color: #DBDDFF;font-weight: 500;margin-bottom: 55px;position: relative;display: inline-block;}
 .title-all span:after {position: absolute;content: "";width: 72px;height: 2px;background-color: #3300FF;top: 13px;right: -87px;}
 .title-all.title-center span:before {position: absolute;content: "";width: 57px;height: 2px;background-color: #3300FF;top: 13px;left: -87px;}
+.title-all.title-capitalizes span {text-transform: capitalize;}
 
 .title-all p {font-size: 26px;max-width: 100%;color: rgb(255 255 255 / 80%);font-weight: 300;margin: 30px 0 55px;}
 .title-all {margin-bottom: 50px;}
@@ -392,7 +393,7 @@ li.type-image.slick-slide.slick-current.slick-active .utility-text p{color: #fff
 .box-c-p {display: flex;background: linear-gradient(90deg, rgb(113 129 255 / 30%) 0%, #275d7200 100%);padding: 10px;border-radius: 20px;margin: 20px 0;align-items: center;justify-content: center;border: 1px solid #030614;}
 .box-c-p:hover {border: 1px solid #06c7ff;}
 .box-c-p-t {background: linear-gradient(90deg, #00E3FF 0%,#1F50FF 25%,#1D20FF 50%,#1C5DFF 75%,#00E3FF 100%);color: #fff;display: flex;align-items: center;justify-content: center;border-radius: 16px;min-width: 260px;padding: 15px;}
-.box-c-p-t h3 {font-size: 24px;max-width: 150px;font-weight: 500;margin: 0;line-height: 34px;}
+.box-c-p-t h3 {font-size: 24px;max-width: 210px;font-weight: 500;margin: 0;line-height: 34px;}
 .box-c-p-t img {margin-right: 35px;}
 .box-c-p p {color: rgb(219 221 255 / 90%);font-size: 20px;margin: 0;padding-left: 30px;font-weight: 400;}
 .partnering-creator-image {margin-left: -135px;position: relative;right: -120px;}
