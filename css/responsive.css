@@ -302,6 +302,7 @@ li.type-image.slick-slide.slick-current.slick-active .utility-text {padding: 25p
 .partner-inner-logo {flex-direction: column;}
 .partner-inner-logo a img {width: 100%;}
 .partner-inner-logo a:first-child {order: 2;}
+.nftss-slider a.btn-boundless {min-height: 60px;line-height: 47px;}
 
 
 }
