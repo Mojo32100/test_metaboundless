@@ -407,7 +407,7 @@ footer p {order: 3;}
 .rldm-image img {max-width: 400px;margin-left: -30px;}
 .concert-future-left h2 {font-size: 27px;}
 .concert-future-left h2 span {font-size: 17px !important;margin-bottom: 30px;}
-.concert-future-left h2 span:last-child {margin-bottom: 30px;}
+.concert-future-left h2 span:last-child {margin-bottom: 30px;max-width: 100%;}
 .concert-future-left h3 span {font-size: 14px;letter-spacing: 2px;line-height: 20px;margin-bottom: 7px;}
 .concert-future-left h3 {font-size: 26px;margin-bottom: 15px;}
 .concert-future-left {padding: 20px;}
