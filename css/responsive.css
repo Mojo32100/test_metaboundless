@@ -179,8 +179,8 @@ a.create-btn {margin-top: 35px;}
 .boundless-banner-text img {max-width: 300px;margin-top: -160px;}
 .title-all h2 {font-size: 44px;}
 .title-all span {font-size: 15px;}
-.title-all span:after {top: 9px;right: -88px;}
-.title-all.title-center span:before {top: 9px;left: -90px;}
+.title-all span:after {/* top: 9px; *//* right: -88px; */}
+.title-all.title-center span:before {/* top: 9px; *//* left: -90px; */}
 .title-all p {font-size: 20px;margin: 0 0 40px;}
 .watch-video-slider .owl-item .item a h3 {font-size: 16px;line-height: 22px;}
 a.btn-boundless {font-size: 16px;min-width: 190px;min-height: auto;}
@@ -281,7 +281,7 @@ li.type-image.slick-slide.slick-current.slick-active .utility-text {padding: 25p
 .header-reward{background: transparent;}
 .slider-img-celebs img {max-width: 100%;min-height: 100%;max-height: 250px;}
 .module-gallery .slider-wrapper .slider-thumb li {padding: 5px 0;}
-.partner-home-title span img {max-width: 190px;margin-top: -26px;}
+.partner-home-title span img {/* max-width: 190px; *//* margin-top: -26px; */}
 .partner-home {padding: 120px 0 0;}
 .partnering-box .pop-up-box .box-social.box-social-last{display: none;}
 .gallery-images-g a .btn-videos {width: 50px;height: auto;}
@@ -539,7 +539,7 @@ footer .foot-menu a.nav-link {font-size: 16px;}
 .module-gallery .slider-preview {margin-bottom: 0;}
 .module-gallery{padding: 0 0 35px;}
 .partner-inner-logo {flex-direction: column;}
-.partner-inner-logo a {padding: 0;max-width: 260px;margin: 5px auto;}
+.partner-inner-logo a {padding: 0;max-width: 100%;margin: 0;width: 100%;}
 .partner-home-title span img {max-width: 120px;margin-top: -12px;}
 .title-all.title-center.partner-home-title span:after {width: 72px;right: -91px;}
 .title-all.title-center.partner-home-title span:before {width: 72px;left: -91px;}
@@ -579,11 +579,15 @@ footer .foot-menu a.nav-link {font-size: 16px;}
 .mobile-image-g{display: block;}
 .web-image-g{display: none;}
 .gall-1.box-cel-imag a {margin-bottom: 5px;}
-.partner-inner-logo a img {max-width: 260px;}
+.partner-inner-logo a img {max-width: 100%;}
 .title-all.title-center.partner-home-title span:after {width: 50px;right: -62px;}
 .title-all.title-center.partner-home-title span:before {width: 50px;left: -70px;}
-
-
+.title-all.title-center .concert-titl {background-size: 100%;padding: 35px;}
+.title-all.title-center.partner-home-title h4 {margin: 0 0 24px;font-size: 15px;}
+.partner-home-title span {margin: 15px 0;}
+.title-all.title-center.partner-home-title h3 {margin: 20px 0 11px;}
+.partner-inner-logo {margin: 15px 0 0;}
+.partner-home {padding: 30px 0 0;}
 
 }
 
@@ -592,3 +596,11 @@ footer .foot-menu a.nav-link {font-size: 16px;}
 
 
 }
+
+@media(max-width: 414px){
+.title-all.title-center .concert-titl {padding: 0;}
+
+}
+
+
+	
