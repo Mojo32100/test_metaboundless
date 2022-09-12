@@ -389,7 +389,7 @@ footer p {order: 3;}
 .title-all.title-center.partner-home-title span:after {width: 50px;right: -65px;top: 7px;}
 .title-all.title-center.partner-home-title span:before {width: 50px;left: -70px;top: 7px;}
 .partner-home-title span {margin-bottom: 30px;}
-
+.title-all.title-center .concert-titl{margin-top: 30px;}
 
 }
 
@@ -582,7 +582,7 @@ footer .foot-menu a.nav-link {font-size: 16px;}
 .partner-inner-logo a img {max-width: 100%;}
 .title-all.title-center.partner-home-title span:after {width: 50px;right: -62px;}
 .title-all.title-center.partner-home-title span:before {width: 50px;left: -70px;}
-.title-all.title-center .concert-titl {background-size: 100%;padding: 35px;}
+.title-all.title-center .concert-titl {background-size: 100%;margin-top: 0;padding: 35px;}
 .title-all.title-center.partner-home-title h4 {margin: 0 0 24px;font-size: 15px;}
 .partner-home-title span {margin: 15px 0;}
 .title-all.title-center.partner-home-title h3 {margin: 20px 0 11px;}
