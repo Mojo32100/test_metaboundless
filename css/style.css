@@ -54,7 +54,7 @@ a.create-btn {position: relative;padding: 10px 35px;margin: 0;font-size: 18px;te
 
 .boundless-banner {padding: 0;text-align: right;height: 100vh;position: relative;}
 .boundless-banner:after {position: absolute;content: "";max-width: 100%;height: 185px;bottom: -89px;z-index: 9999;left: 0;right: 0;background: linear-gradient(180deg, rgb(43 21 108 / 0%) 0%, rgb(43 21 108 / 81%) 29%, rgb(43 21 108) 54%, rgb(42 20 107) 76%, rgb(43 21 109) 100%);}
-.boundless-banner-text {text-align: center;width: 100%;display: flex;align-items: center;justify-content: center;flex-direction: column;position: absolute;top: 53%;transform: translateY(-50%);}
+.boundless-banner-text {text-align: center;width: 100%;display: flex;align-items: center;justify-content: center;flex-direction: column;position: absolute;top: 53%;transform: translateY(-50%);z-index: 0;}
 .boundless-banner-text img {width: auto;}
 .boundless-banner-text h1{color: #fff;font-weight: 600;font-size: 60px;margin: 0;text-transform: uppercase;letter-spacing: 5px;}
 .boundless-banner-text img.logo-midd {margin-top: -140px;}
