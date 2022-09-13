@@ -210,10 +210,10 @@ a.btn-boundless:after {min-width: 190px;}
 .about-mb-token .title-all p {font-size: 20px;}
 .about-mb-token .token-row {padding: 45px 20px;}
 .comming-soon-image {max-width: 550px;margin: 0 auto;}
-.comming-soon-text h2 {font-size: 44px;}
+.comming-soon-text h2 {font-size: 44px;text-align: center;}
 .comming-soon-text {padding: 50px 25px 0 55px;}
 .comming-soon:before {display: none;}
-.comming-soon-text p {font-size: 22px;margin: 0 auto;}
+.comming-soon-text p {font-size: 22px;margin: 0 auto;text-align: center;}
 .comming-soon {padding: 100px 0 30px;}
 .follow-us-text h2 {font-size: 40px;}
 .about-mb-token-image {max-width: 290px;}
@@ -262,7 +262,7 @@ footer .footer-left li{padding: 5px 0;}
 .creator-s-w img.arrow-po-c {order: 3;position: initial;}
 .creator-s-w h3 {order: 2;margin: 40px 0 25px;}
 .creator-f-w h3 {order: inherit;margin: 25px 0 40px;}
-.title-all.title-concert-future p {margin: 0 auto}
+.title-all.title-concert-future p {margin: 0 auto;max-width: 100%;}
 .module-gallery .slider-thumb li {max-width: 345px;}
 .utility-text p {font-size: 15px;line-height: 22px;margin: 0;}
 .module-gallery .slider-thumb {min-width: 375px;margin: 20px 0 0;}
@@ -323,7 +323,7 @@ li.type-image.slick-slide.slick-current.slick-active .utility-text {padding: 25p
 .rldm-p-logo {margin-right: 0;margin-top: 0;}
 .concert-future-left {max-width: 100%;margin-top: 20px;}
 .rldm-p-logo a.small-log {max-width: 165px;}
-
+footer .foot-menu li{margin: 0 45px 0 0;}
 
 
 }
@@ -414,6 +414,7 @@ footer p {order: 3;}
 .title-all.title-center .concert-titl{margin-top: 30px;}
 .title-all.title-concert-future p {max-width: 100%;}
 .rldm-p-logo a.small-log{max-width: 125px;}
+.module-gallery {padding: 0 0 20px;}
 
 
 }
