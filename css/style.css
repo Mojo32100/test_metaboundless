@@ -454,7 +454,7 @@ li.type-image.slick-slide.slick-current.slick-active .utility-text p{color: #fff
 
 .mobile-image-g{display: none;}
 
-
+.mobile-part-op{display: none;}
 
 /*footer*/
 footer {padding: 100px 0 0;position: relative;background: url(../images/wave.png) no-repeat center;z-index: 1;text-align: center;background-size: 100%;position: relative;}
