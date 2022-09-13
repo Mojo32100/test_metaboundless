@@ -325,9 +325,6 @@ li.type-image.slick-slide.slick-current.slick-active .utility-text {padding: 25p
 .rldm-p-logo a.small-log {max-width: 165px;}
 footer .foot-menu li{margin: 0 45px 0 0;}
 
-.web-part-op{display: none;}
-.mobile-part-op{display: block;margin-top: 35px;}
-
 
 }
 
@@ -619,7 +616,7 @@ footer .foot-menu a.nav-link {font-size: 16px;}
 .partner-home {padding: 30px 0 0;}
 .partner-inner-logo a.small-log {max-width: 90%;}
 .rldm-p-logo a {max-width: 50%;}
-.rldm-p-logo {flex-wrap: wrap;justify-content: center;padding-left: 8px;}
+.rldm-p-logo {flex-wrap: wrap;justify-content: space-around;padding-left: 8px;}
 .rldm-p-logo a:nth-child(1) {order: 3;}
 .rldm-p-logo a:nth-child(2) {order: 1;}
 .rldm-p-logo a:nth-child(3) {order: 2;}
