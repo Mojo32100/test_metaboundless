@@ -53,7 +53,7 @@ a.login-btn:hover{color: #4077ff;}
 a.create-btn {position: relative;padding: 10px 35px;margin: 0;font-size: 18px;text-transform: uppercase;color: #fff;font-weight: 600;min-width: 155px;display: inline-block;border: 2px solid #270cc1;border-radius: 10px;text-decoration: none;text-align: center;}
 
 .boundless-banner {padding: 0;text-align: right;height: 100vh;position: relative;}
-.boundless-banner:after {position: absolute;content: "";max-width: 100%;height: 185px;bottom: -89px;z-index: 9999;left: 0;right: 0;background: linear-gradient(180deg, rgb(43 21 108 / 0%) 0%, rgb(43 21 108 / 81%) 29%, rgb(43 21 108) 54%, rgb(42 20 107) 76%, rgb(43 21 109) 100%);}
+.boundless-banner:after {position: absolute;content: "";max-width: 100%;height: 185px;bottom: -89px;z-index: 9999;left: 0;right: 0;background: linear-gradient(180deg, rgb(43 21 108 / 0%) 0%, rgb(43 21 108 / 81%) 29%, rgb(43 21 108) 54%, rgb(38 19 98) 76%, rgb(36 18 93) 100%);}
 .boundless-banner-text {text-align: center;width: 100%;display: flex;align-items: center;justify-content: center;flex-direction: column;position: absolute;top: 53%;transform: translateY(-50%);z-index: 0;}
 .boundless-banner-text img {width: auto;}
 .boundless-banner-text h1{color: #fff;font-weight: 600;font-size: 60px;margin: 0;text-transform: uppercase;letter-spacing: 5px;}
@@ -83,10 +83,12 @@ a.btn-boundless:after {position: absolute;content: "";min-width: 205px;height: 6
 .concert-future-left h2{font-size: 48px;color: #fff;max-width: 90%;font-weight: 500;margin: 0 auto;}
 .concert-future-left h2 span:first-child{font-size: 24px;color: #fff;max-width: 80%;font-weight: 200;display: block;margin: 10px auto 0px;}
 .concert-future-left h2 span:last-child{font-size: 24px;color: #fff;max-width: 80%;font-weight: 200;display: block;margin: 10px auto 50px;}
-.concert-future-left{background: rgb(0 0 0 / 10%);background-size: 100%;text-align: center;backdrop-filter: blur(50px);padding: 50px;border-radius: 10px;border: 1px solid #826caf;max-width: 630px;margin: 0 auto;}
+.concert-future-left{background: rgb(0 0 0 / 10%);background-size: 100%;text-align: center;backdrop-filter: blur(50px);padding: 80px 50px;border-radius: 10px;border: 1px solid #826caf;max-width: 630px;margin: 0 auto;}
 .concert-future-left h3{font-size: 52px;color: #fff;max-width: 100%;font-weight: 400;font-family: 'Oswald', sans-serif;margin: 0 auto 45px;text-transform: uppercase;}
 .concert-future-left h3 span{font-size: 16px;color: #fff;max-width: 100%;font-weight: 500;display: block;font-family: 'Poppins', sans-serif;margin: 0 auto;text-transform: uppercase;letter-spacing: 4px;}
-.rldm-image img {max-width: 1000px;margin-left: -95px;}
+.rldm-image img {margin-left: -13px;}
+.rldm-p-logo {display: flex;margin-left: -85px;margin-top: 20px;margin-right: 45px;align-items: center;}
+.rldm-p-logo a.small-log {max-width: 225px;}
 .btn-metaverse a.btn-boundless {background: #fff;color: #361dff;}
 .btn-metaverse a.btn-boundless:hover {background: linear-gradient(90deg, #3300ff 0%,#4ee8ff 100%);color: #fff;}
 .title-concert-future span {font-size: 22px;}
