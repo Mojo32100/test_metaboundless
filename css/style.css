@@ -398,7 +398,7 @@ li.type-image.slick-slide.slick-current.slick-active .utility-text p{color: #fff
 
 
 .toolkits-s {padding: 170px 0 70px;position: relative;}
-.toolkits-s:before{background: url(../images/bg-tool-shd.png) no-repeat top 55px center;background-size: 100%;left: 0;right: 0;content: "";position: absolute;min-height: 1390px;max-width: 770px;top: -300px;}
+.toolkits-s:before{background: url(../images/bg-tool-shd.png) no-repeat top 55px center;background-size: 100%;left: 0;right: 0;content: "";position: absolute;min-height: 1390px;max-width: 770px;top: -300px;z-index: -1;}
 
 .toolkits-s-box {text-align: center;}
 .toolkits-s-box > span {min-width: 200px;min-height: 200px;background-color: #1B1D40;display: inline-block;line-height: 200px;border-radius: 30px;border: none;background: linear-gradient(180deg, #394D63 0%, #575b7900 100%);}
