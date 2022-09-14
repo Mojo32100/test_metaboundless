@@ -88,7 +88,7 @@ a.btn-boundless:after {position: absolute;content: "";min-width: 205px;height: 6
 .concert-future-left h3 span{font-size: 16px;color: #fff;max-width: 100%;font-weight: 500;display: block;font-family: 'Poppins', sans-serif;margin: 0 auto;text-transform: uppercase;letter-spacing: 4px;}
 .rldm-image img {margin-left: -13px;}
 .rldm-p-logo {display: flex;margin-left: -170px;margin-top: 20px;margin-right: 310px;align-items: center;}
-.rldm-p-logo a.small-log {max-width: 225px;}
+.rldm-p-logo a.small-log {max-width: 250px;}
 .btn-metaverse a.btn-boundless {background: #fff;color: #361dff;}
 .btn-metaverse a.btn-boundless:hover {background: linear-gradient(90deg, #3300ff 0%,#4ee8ff 100%);color: #fff;}
 .title-concert-future span {font-size: 22px;}
