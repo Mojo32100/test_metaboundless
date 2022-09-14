@@ -8,7 +8,7 @@
 
 @media(max-width: 1920px){
 .rldm-p-logo {margin-left: -80px;margin-right: 70px;}
-.rldm-p-logo a.small-log{max-width: 205px;}
+.rldm-p-logo a.small-log{max-width: 210px;}
 .boundless-banner:after{    background: linear-gradient(180deg, rgb(43 21 108 / 0%) 0%, rgb(43 21 108 / 81%) 29%, rgb(43 21 108) 54%, rgb(37 20 90) 76%, rgb(36 18 94) 100%);}
 
 
@@ -81,7 +81,7 @@
 @media(max-width: 1280px){
 .boundless-banner:after {    background: linear-gradient(180deg, rgb(43 21 108 / 0%) 0%, #030614f0 29%, #030614f7 54%, #0306147a 76%, rgb(35 18 90) 100%);}
 .rldm-p-logo{margin-right: -8px;}
-.rldm-p-logo a.small-log{max-width: 145px;}
+.rldm-p-logo a.small-log{max-width: 155px;}
 
 
 
