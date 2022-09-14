@@ -1,4 +1,9 @@
 @media(max-width: 1920px){
+.rldm-p-logo {margin-left: -80px;margin-right: 70px;}
+.rldm-p-logo a.small-log{max-width: 205px;}
+.boundless-banner:after{    background: linear-gradient(180deg, rgb(43 21 108 / 0%) 0%, rgb(43 21 108 / 81%) 29%, rgb(43 21 108) 54%, rgb(37 20 90) 76%, rgb(36 18 94) 100%);}
+
+
 
 }
 
